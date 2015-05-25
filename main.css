@@ -1,0 +1,168 @@
+html {
+    height: 100%;
+}
+
+
+body {
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.mapper {
+    width: 100%;
+}
+
+/* IMAGEM DE FUNDO, EMBORA NÃO SEJA TOTALMENTE UM BACKGROUND! */
+
+#background{
+    min-height:100%;
+    min-width:100%;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+
+
+/* MENU */
+
+
+
+/* menu inicial */
+.menu {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -285px;
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+/* estilos */
+
+
+
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  color: #fff
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+
+.logo{
+  width: 100px;
+  height:100px;
+  }
+
+#slender-trigger {
+  background-color: #CCC;
+  height: 80px;
+  width: 40px;
+  margin-left: 70px;
+  margin-top: 50px;
+  position: absolute;
+}
+
+/* TEXTO DAS DIVS */
+
+#div1 {
+  width: 500px;
+  margin-left: 600px;
+  margin-right: 600px;
+  border: 1px groove white;
+  color: black;
+  background-color: #85ADFF;
+  position: absolute;
+  text-align: center;
+
+}
+
+#imgdiv1 {
+  width: 300px;
+  height: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+
+#imgdiv2 {
+  width: 300px;
+  height: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#div2 {
+  width: 500px;
+  margin-left: 600px;
+  margin-right: 600px;
+  border-radius: 7px;
+  padding: 0 6px 2px;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  background-color: #85ADFF;
+  position: absolute;
+  display: none;
+}
+
+
+/*VIDEO*/
+
+
+.kappa{
+  width: 800px;
+  height: 150px;
+  margin-left: 400px;
+  margin-right: 100px;
+  position: absolute;
+}
+
+
+
+
+
