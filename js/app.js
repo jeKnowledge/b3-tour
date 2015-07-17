@@ -63,9 +63,9 @@
         
 
         /*VIDEO JEKNOWLEDGE ACADEMY*/
-        $('.kappa').hide();
+        $('.jekacademy').hide();
         $('#popup2').click(function() {
-            $('.kappa').toggle(400);
+            $('.jekacademy').toggle(400);
             return false;
         });
 
