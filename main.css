@@ -68,7 +68,7 @@ body {
   border-radius: 7px;
   padding: 0 6px 2px;
   color: black;
-  cursor: pointer;
+  cursor: default;
   text-align: center;
   text-decoration: none;
   background-color: #85ADFF;
@@ -127,3 +127,32 @@ body {
   position: absolute;
 }
 
+/* CRUZ PARA FECHAR DIVS */
+
+.b-close{
+
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: none;
+  font: bold 131% sans-serif;
+  padding: 0 6px 2px;
+  position: absolute;
+  right: -7px;
+  top: -7px;
+  cursor: pointer;
+}
+
+.b-close:hover {
+background-color: #1e1e1e;
+}
+
+.button {
+  background-color: #85ADFF;
+  border-radius: 10px;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.3);
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
