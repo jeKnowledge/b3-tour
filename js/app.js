@@ -124,11 +124,9 @@ $(document).ready(main);
                 $('#popupdiv5').on('click', function(e) {
                     e.preventDefault();
                     $('#div5').bPopup();
-                $('#popupdiv3').on('click', function(e) {
-                    e.preventDefault();
-                    $('#div3').bPopup();
-                });
              });
+            });
+
          })(jQuery);
 
 
