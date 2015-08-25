@@ -37,11 +37,14 @@ body {
   margin-left: 600px;
   margin-right: 600px;
   border-radius: 7px;
+  padding: 0 6px 2px;
   color: black;
+  cursor: default;
+  text-align: center;
+  text-decoration: none;
   background-color: #85ADFF;
   position: absolute;
-  padding: 0 6px 2px;
-  text-align: center;
+  display: none;
 
 }
 
@@ -76,6 +79,28 @@ body {
   display: none;
 }
 
+#imgdiv4 {
+  width: 300px;
+  height: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#div4 {
+  width: 500px;
+  margin-left: 600px;
+  margin-right: 600px;
+  border-radius: 7px;
+  padding: 0 6px 2px;
+  color: black;
+  cursor: default;
+  text-align: center;
+  text-decoration: none;
+  background-color: #85ADFF;
+  position: absolute;
+  display: none;
+}
+
 #imgdiv3 {
   width: 300px;
   height: 150px;
@@ -85,13 +110,13 @@ body {
 }
 
 #div3 {
-  width: 500px;
+   width: 500px;
   margin-left: 600px;
   margin-right: 600px;
   border-radius: 7px;
   padding: 0 6px 2px;
   color: black;
-  cursor: pointer;
+  cursor: default;
   text-align: center;
   text-decoration: none;
   background-color: #85ADFF;
@@ -99,9 +124,9 @@ body {
   display: none;
 }
 
+
 /*VIDEO JEKNOWLEDGE ACADEMY*/
-
-
+/*
 .jekacademy{
   width: 100px;
   height: 150px;
@@ -110,11 +135,11 @@ body {
   position: absolute;
   margin-top: 100px;
 }
-
+*/
 
 /*VIDEO SUMMER JADE MEETING*/
 
-
+/*
 .sjm{
   width: 800px;
   height: 150px;
@@ -126,7 +151,7 @@ body {
 .estilo {
   position: absolute;
 }
-
+*/
 /* CRUZ PARA FECHAR DIVS */
 
 .b-close{
