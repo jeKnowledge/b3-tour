@@ -110,7 +110,11 @@ body {
 }
 
 #div3 {
+<<<<<<< HEAD
   width: 500px;
+=======
+   width: 500px;
+>>>>>>> 129d172e284514aec62a08543cd0b5f55f4061f9
   margin-left: 600px;
   margin-right: 600px;
   border-radius: 7px;
@@ -125,6 +129,7 @@ body {
 }
 
 
+<<<<<<< HEAD
 
 /*VIDEO JEKNOWLEDGE ACADEMY*/
 
@@ -156,6 +161,9 @@ body {
   height: 100%;
 }
 
+=======
+/*VIDEO JEKNOWLEDGE ACADEMY*/
+>>>>>>> 129d172e284514aec62a08543cd0b5f55f4061f9
 /*
 .jekacademy{
   width: 100px;
@@ -167,8 +175,11 @@ body {
 }
 */
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 129d172e284514aec62a08543cd0b5f55f4061f9
 /*VIDEO SUMMER JADE MEETING*/
 
 /*
@@ -184,10 +195,13 @@ body {
   position: absolute;
 }
 */
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 129d172e284514aec62a08543cd0b5f55f4061f9
 /* CRUZ PARA FECHAR DIVS */
 
 .b-close{
