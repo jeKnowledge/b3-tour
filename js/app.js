@@ -98,7 +98,7 @@ $(document).ready(main);
          })(jQuery);
 
 
-<<<<<<< HEAD
+
     ;(function($) {
             $(function() {
                 $('#popupdiv3').on('click', function(e) {
@@ -107,8 +107,7 @@ $(document).ready(main);
                 });
              });
          })(jQuery);
-=======
->>>>>>> 129d172e284514aec62a08543cd0b5f55f4061f9
+
 
 
     ;(function($) {
@@ -122,27 +121,18 @@ $(document).ready(main);
 
     ;(function($) {
             $(function() {
-<<<<<<< HEAD
                 $('#popupdiv5').on('click', function(e) {
                     e.preventDefault();
                     $('#div5').bPopup();
-=======
                 $('#popupdiv3').on('click', function(e) {
                     e.preventDefault();
                     $('#div3').bPopup();
->>>>>>> 129d172e284514aec62a08543cd0b5f55f4061f9
                 });
              });
          })(jQuery);
 
 
 
-<<<<<<< HEAD
-    
-
-
-=======
->>>>>>> 129d172e284514aec62a08543cd0b5f55f4061f9
 
 
 
