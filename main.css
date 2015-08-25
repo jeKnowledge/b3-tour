@@ -1,0 +1,219 @@
+html {
+    height: 100%;
+}
+
+
+body {
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.mapper {
+    width: 100%;
+}
+
+/* IMAGEM DE FUNDO, EMBORA NÃO SEJA TOTALMENTE UM BACKGROUND! */
+
+#background{
+    min-height:100%;
+    min-width:100%;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+
+
+
+/* TEXTO DAS DIVS */
+
+#div1 {
+  width: 500px;
+  margin-left: 600px;
+  margin-right: 600px;
+  border-radius: 7px;
+  padding: 0 6px 2px;
+  color: black;
+  cursor: default;
+  text-align: center;
+  text-decoration: none;
+  background-color: #85ADFF;
+  position: absolute;
+  display: none;
+
+}
+
+#imgdiv1 {
+  width: 300px;
+  height: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+
+#imgdiv2 {
+  width: 300px;
+  height: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#div2 {
+  width: 500px;
+  margin-left: 600px;
+  margin-right: 600px;
+  border-radius: 7px;
+  padding: 0 6px 2px;
+  color: black;
+  cursor: default;
+  text-align: center;
+  text-decoration: none;
+  background-color: #85ADFF;
+  position: absolute;
+  display: none;
+}
+
+#imgdiv4 {
+  width: 300px;
+  height: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#div4 {
+  width: 500px;
+  margin-left: 600px;
+  margin-right: 600px;
+  border-radius: 7px;
+  padding: 0 6px 2px;
+  color: black;
+  cursor: default;
+  text-align: center;
+  text-decoration: none;
+  background-color: #85ADFF;
+  position: absolute;
+  display: none;
+}
+
+#imgdiv3 {
+  width: 300px;
+  height: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+#div3 {
+  width: 500px;
+  margin-left: 600px;
+  margin-right: 600px;
+  border-radius: 7px;
+  padding: 0 6px 2px;
+  color: black;
+  cursor: default;
+  text-align: center;
+  text-decoration: none;
+  background-color: #85ADFF;
+  position: absolute;
+  display: none;
+}
+
+
+
+/*VIDEO JEKNOWLEDGE ACADEMY*/
+
+#div5 {
+  width: 500px;
+  height:300px;
+  margin-left: 600px;
+  margin-right: 600px;
+  border-radius: 7px;
+  padding: 0 6px 2px;
+  color: black;
+  cursor: default;
+  text-align: center;
+  text-decoration: none;
+  background-color: #85ADFF;
+  position: relative;
+  display: none;
+}
+
+#iframediv {
+  width: 100%;
+  height: 97.5%;
+  margin-top:5px;
+
+}
+
+#iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/*
+.jekacademy{
+  width: 100px;
+  height: 150px;
+  margin-left: 200px;
+  margin-right: 100px;
+  position: absolute;
+  margin-top: 100px;
+}
+*/
+
+
+
+/*VIDEO SUMMER JADE MEETING*/
+
+/*
+.sjm{
+  width: 800px;
+  height: 150px;
+  margin-left: 200px;
+  margin-right: 100px;
+  position: absolute;
+}
+
+.estilo {
+  position: absolute;
+}
+*/
+
+
+
+
+/* CRUZ PARA FECHAR DIVS */
+
+.b-close{
+
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: none;
+  font: bold 131% sans-serif;
+  padding: 0 6px 2px;
+  position: absolute;
+  right: -7px;
+  top: -7px;
+  cursor: pointer;
+}
+
+.b-close:hover {
+background-color: #1e1e1e;
+}
+
+.button {
+  background-color: #85ADFF;
+  border-radius: 10px;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.3);
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
