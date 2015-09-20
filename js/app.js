@@ -32,6 +32,46 @@ var main = function(){
         window.location = linkLocation;
     }
 
+
+(function ($) {
+
+    $.fn.photoResize = function (options) {
+
+        var element = $(this), 
+            defaults = {
+                bottomSpacing: 10
+            };
+        
+        $(element).load(function () {
+            updatePhotoHeight();
+
+            $(window).bind('resize', function () {
+                updatePhotoHeight();
+            });
+        });
+
+        options = $.extend(defaults, options);
+
+        function updatePhotoHeight() {
+            var o = options, 
+                photoHeight = $(window).height();
+
+            $(element).attr('height', photoHeight - o.bottomSpacing);
+        }
+    };
+
+}(jQuery));
+}  
+
+
+$(document).ready(main);
+
+$(document).ready(function() {
+            $("img").photoResize({
+                bottomSpacing: 0
+            });
+        });
+
     
     //POP UP DAS DIVS COM TEXTO
 
@@ -87,9 +127,7 @@ var main = function(){
 
 
     // ADICIONAR TOOLTIPS!! :D
-}  
 
-$(document).ready(main);
 
     ;(function($) {
             $(function() {
@@ -142,6 +180,9 @@ $(document).ready(main);
             });
 
          })(jQuery);
+
+
+
 
 
 
