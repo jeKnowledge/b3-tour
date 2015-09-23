@@ -2,12 +2,11 @@ html {
     height: 100%;
 }
 
-
 body {
-  left: 0;
-  margin: 0;
-  overflow: hidden;
-  position: relative;
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
 }
 
 .mapper {
@@ -16,9 +15,9 @@ body {
 
 /* IMAGEM DE FUNDO, EMBORA NÃO SEJA TOTALMENTE UM BACKGROUND! */
 
-#background{
-    min-height:100%;
-    min-width:100%;
+#background {
+    min-height: 100%;
+    min-width: 100%;
     width: 100%;
     height: auto;
     position: fixed;
