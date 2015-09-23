@@ -7,6 +7,7 @@ body {
     margin: 0;
     overflow: hidden;
     position: relative;
+    background-color: black;
 }
 
 .mapper {
@@ -17,6 +18,7 @@ body {
 
 #background {
     z-index: -1;
+    
 }
 
 /* TEXTO DAS DIVS */
@@ -187,6 +189,7 @@ body {
 .b-close:hover {
     background-color: #1e1e1e;
 }
+
 
 .button {
     background-color: #85ADFF;
