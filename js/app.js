@@ -47,8 +47,9 @@ var main = function () {
         }
     });
 
-    $('#master_wrap_0').css({
-        'margin-left': '50%',
+    $('#mapster_wrap_0').css({
+        'margin-left': 'auto',
+        'margin-right': 'auto'
     });
 
     $("body").css("display", "none");
@@ -131,7 +132,6 @@ $(document).ready(main);
 // ADICIONAR TOOLTIPS!! :D
 
 
-
 (function ($) {
     $(function () {
         $('#popupdiv1').on('click', function (e) {
@@ -140,7 +140,6 @@ $(document).ready(main);
         });
     });
 })(jQuery);
-
 
 
 (function ($) {
@@ -153,7 +152,6 @@ $(document).ready(main);
 })(jQuery);
 
 
-
 (function ($) {
     $(function () {
         $('#popupdiv3').on('click', function (e) {
@@ -162,7 +160,6 @@ $(document).ready(main);
         });
     });
 })(jQuery);
-
 
 
 (function ($) {
