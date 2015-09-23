@@ -47,6 +47,10 @@ var main = function () {
         }
     });
 
+    $('#master_wrap_0').css({
+        'margin-left': '50%',
+    });
+
     $("body").css("display", "none");
 
     $("body").fadeIn(2000);
@@ -61,10 +65,10 @@ var main = function () {
         window.location = linkLocation;
     }
 
-    $('img').mapster('resize', $(window).width(), $(window).height(), 0);
+    $('img').mapster('resize', 0, $(window).height(), 0);
 
     $(window).bind('resize', function () {
-        $('img').mapster('resize', $(window).width(), $(window).height(), 0);
+        $('img').mapster('resize', 0, $(window).height(), 0);
     });
 };
 

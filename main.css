@@ -16,13 +16,6 @@ body {
 /* IMAGEM DE FUNDO, EMBORA NÃO SEJA TOTALMENTE UM BACKGROUND! */
 
 #background {
-    min-height: 100%;
-    min-width: 100%;
-    width: 100%;
-    height: auto;
-    position: fixed;
-    left: 0px;
-    top: 0px;
     z-index: -1;
 }
 
