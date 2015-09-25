@@ -21,6 +21,10 @@ body {
     
 }
 
+#backgroundentrance{
+    z-index: -1;
+}
+
 /* TEXTO DAS DIVS */
 
 #div1 {
