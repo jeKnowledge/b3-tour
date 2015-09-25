@@ -1,51 +1,36 @@
-var main = function () {
-    (function ($) {
-        $.fn.photoResize = function (options) {
-            var element = $(this),
-                defaults = {
-                    bottomSpacing: 10
-                };
+var app = {
+    currentRoomImage: 'images/image.jpg',
 
-            $(element).load(function () {
-                updatePhotoHeight();
+    changeRoom: function (newRoom) {
+        this.currentRoomImage = newRoom;
 
-                $(window).bind('resize', function () {
-                    updatePhotoHeight();
-                });
-            });
+        $('#myimage').attr('src', this.currentRoomImage);
 
-            options = $.extend(defaults, options);
+        // HIGHLIGHT E RESIZE DAS COORDENADAS
+        $('#myimage').mapster({
+            singleSelect: true,
+            fill: true,
+            fillOpacity: 0.6,
+            fillColor: '008FC5',
+            stroke: true,
+            strokeColor: '000000',
+            strokeOpacity: 1,
+            strokeWidth: 2,
 
-            function updatePhotoHeight() {
-                var o = options,
-                    photoHeight = $(window).height();
+            onMouseover: function (e) {
+                $(this).mapster('set', false).mapster('set', true);
+            },
 
-                $(element).attr('height', photoHeight - o.bottomSpacing);
+            onMouseout: function (e) {
+                $(this).mapster('set', false);
             }
-        };
-    }(jQuery));
+        });
 
-    console.log($("img").photoResize);
+    }
+};
 
-    //HIGHLIGHT E RESIZE DAS COORDENADAS
-    $('#myimage').mapster({
-        singleSelect: true,
-        fill: true,
-        fillOpacity: 0.6,
-        fillColor: '008FC5',
-        stroke: true,
-        strokeColor: '000000',
-        strokeOpacity: 1,
-        strokeWidth: 2,
-
-        onMouseover: function (e) {
-            $(this).mapster('set', false).mapster('set', true);
-        },
-
-        onMouseout: function (e) {
-            $(this).mapster('set', false);
-        }
-    });
+var main = function () {
+    app.changeRoom('images/image.jpg');
 
     $('#mapster_wrap_0').css({
         'margin-left': 'auto',
