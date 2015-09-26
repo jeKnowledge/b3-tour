@@ -1,61 +1,70 @@
 var app = {
+    maxImages: 4,
+    configuredImages: 0,
+
     changeRoom: function (image) {
-        $('.mapper').hide();
-        $('.mapper-wrapper').hide();
+        $('.mapper').parent().hide();
         $(image).show();
         $(image).parent().show();
 
         // HIGHLIGHT E RESIZE DAS COORDENADAS
-        $(image).mapster({
-            singleSelect: true,
-            fill: true,
-            fillOpacity: 0.6,
-            fillColor: '008FC5',
-            stroke: true,
-            strokeColor: '000000',
-            strokeOpacity: 1,
-            strokeWidth: 2,
 
-            onMouseover: function (e) {
-                $(this).mapster('set', false).mapster('set', true);
-            },
+        console.log($(image).parent());
 
-            onMouseout: function (e) {
-                $(this).mapster('set', false);
-            }
-        });
-
-        $(image).mapster('resize', 0, $(window).height(), 0);
+        /*$(image).mapster('resize', 0, $(window).height(), 0);
 
         $(window).bind('resize', function () {
             $(image).mapster('resize', 0, $(window).height(), 0);
-        });
+        });*/
     }
 };
 
 var main = function () {
-    app.changeRoom($('#myimage'));
+    $('.mapper').mapster({
+        singleSelect: true,
+        fill: true,
+        fillOpacity: 0.6,
+        fillColor: '008FC5',
+        stroke: true,
+        strokeColor: '000000',
+        strokeOpacity: 1,
+        strokeWidth: 2,
+        wrapClass: 'mapster-wrapper',
 
-    $('#popupdiv1entrance').click(function() {
+        onMouseover: function (e) {
+            $(this).mapster('set', false).mapster('set', true);
+        },
+
+        onMouseout: function (e) {
+            $(this).mapster('set', false);
+        },
+
+        onConfigured: function (e) {
+            app.configuredImages++;
+
+            if (app.configuredImages == app.maxImages) {
+                app.changeRoom($('#myimage'));
+            }
+
+            $(this).parent().hide();
+        }
+    });
+
+    $('#popupdiv1entrance').click(function () {
         app.changeRoom($('#myimagehall'));
     });
-    
-    $('#popupdiv2hall').click(function() {
+
+    $('#popupdiv2hall').click(function () {
         app.changeRoom($('#myimage123'));
     });
 
 
-    $('#popupdiv1hall').click(function() {
+    $('#popupdiv1hall').click(function () {
         app.changeRoom($('#myimagetec'));
     });
 
-    $('#popupdiv1tec').click(function() {
+    $('#popupdiv1tec').click(function () {
         app.changeRoom($('#myimagehall'));
-    });
-
-    $('#mapster_wrap_0').css({
-        'margin-left': 'auto',
-        'margin-right': 'auto'
     });
 
     $("a.transition").click(function (event) {
