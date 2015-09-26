@@ -1,7 +1,9 @@
 var app = {
     changeRoom: function (image) {
         $('.mapper').hide();
+        $('.mapper-wrapper').hide();
         $(image).show();
+        $(image).parent().show();
 
         // HIGHLIGHT E RESIZE DAS COORDENADAS
         $(image).mapster({
@@ -34,23 +36,18 @@ var app = {
 var main = function () {
     app.changeRoom($('#myimage'));
 
-    $('#popupdiv1entrance').click(function(){
+    $('#popupdiv1entrance').click(function() {
         app.changeRoom($('#myimagehall'));
     });
     
-    $('#popupdiv2hall').click(function(){
+    $('#popupdiv2hall').click(function() {
         app.changeRoom($('#myimage123'));
     });
-
 
     $('#mapster_wrap_0').css({
         'margin-left': 'auto',
         'margin-right': 'auto'
     });
-
-    $("body").css("display", "none");
-
-    $("body").fadeIn(2000);
 
     $("a.transition").click(function (event) {
         event.preventDefault();

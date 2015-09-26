@@ -15,14 +15,7 @@ body {
     display: none;
 }
 
-/* IMAGEM DE FUNDO, EMBORA NÃO SEJA TOTALMENTE UM BACKGROUND! */
-
-#background {
-    z-index: -1;
-    
-}
-
-#backgroundentrance{
+.mapper-wrapper {
     z-index: -1;
 }
 
@@ -195,7 +188,6 @@ body {
 .b-close:hover {
     background-color: #1e1e1e;
 }
-
 
 .button {
     background-color: #85ADFF;
