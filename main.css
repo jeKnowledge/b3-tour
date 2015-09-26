@@ -43,7 +43,9 @@ body {
 
 /* HALL */
 
-#div-hall-contacts{
+
+
+#div-hall-contacts, #div-hall-partners, #div-hall-philosophy, #div-hall-journey, #div-hall-criativity{
     width: 500px;
     margin-left: 600px;
     margin-right: 600px;
@@ -58,12 +60,14 @@ body {
     display: none;
 }
 
-#img-div-hall-contacts {
+
+#img-div-hall-contacts, #img-div-hall-partners, #img-div-hall-philosophy, #img-div-hall-journey, #img-div-hall-criativity{
     width: 300px;
     height: 150px;
     margin-left: 100px;
     margin-right: 100px;
 }
+
 
 #imgdiv1 {
     width: 300px;

@@ -107,6 +107,42 @@ var main = function () {
         });
     })(jQuery);
 
+     (function ($) {
+        $(function () {
+            $('#hall-partners').on('click', function (e) {
+                e.preventDefault();
+                $('#div-hall-partners').bPopup();
+            });
+        });
+    })(jQuery);
+
+    (function ($) {
+        $(function () {
+            $('#hall-philosophy').on('click', function (e) {
+                e.preventDefault();
+                $('#div-hall-philosophy').bPopup();
+            });
+        });
+    })(jQuery);
+
+    (function ($) {
+        $(function () {
+            $('#hall-journey').on('click', function (e) {
+                e.preventDefault();
+                $('#div-hall-journey').bPopup();
+            });
+        });
+    })(jQuery);
+
+    (function ($) {
+        $(function () {
+            $('#hall-criativity').on('click', function (e) {
+                e.preventDefault();
+                $('#div-hall-criativity').bPopup();
+            });
+        });
+    })(jQuery);
+
 
 
 
