@@ -37,6 +37,11 @@ var main = function () {
     $('#popupdiv1entrance').click(function(){
         app.changeRoom($('#myimagehall'));
     });
+    
+    $('#popupdiv2hall').click(function(){
+        app.changeRoom($('#myimage123'));
+    });
+
 
     $('#mapster_wrap_0').css({
         'margin-left': 'auto',
