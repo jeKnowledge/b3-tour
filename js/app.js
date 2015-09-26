@@ -19,6 +19,7 @@ var app = {
     }
 };
 
+//ADICIONAR FADES!
 var main = function () {
     $('.mapper').mapster({
         singleSelect: true,
@@ -43,19 +44,19 @@ var main = function () {
             app.configuredImages++;
 
             if (app.configuredImages == app.maxImages) {
-                app.changeRoom($('#myimage'));
+                app.changeRoom($('#jek-entrance'));
             }
 
             $(this).parent().hide();
         }
     });
 
-    $('#popupdiv1entrance').click(function () {
-        app.changeRoom($('#myimagehall'));
+    $('#hall-transition').click(function () {
+        app.changeRoom($('#jek-hall'));
     });
 
     $('#popupdiv2hall').click(function () {
-        app.changeRoom($('#myimage123'));
+        app.changeRoom($('#jek-innovation'));
     });
 
 
@@ -64,12 +65,12 @@ var main = function () {
     });
 
     $('#popupdiv1tec').click(function () {
-        app.changeRoom($('#myimagehall'));
+        app.changeRoom($('#jek-hall'));
     });
 
 
     $('#popupdiv1ino').click(function () {
-        app.changeRoom($('#myimagehall'));
+        app.changeRoom($('#jek-hall'));
     });
 
     $("a.transition").click(function (event) {
@@ -83,6 +84,18 @@ var main = function () {
     }
 
     /* FUNÇÕES DE POPUP */
+
+    /* POPUP NA ENTRADA */
+
+    (function ($) {
+        $(function () {
+            $('#hall-sign').on('click', function (e) {
+                e.preventDefault();
+                $('#div-entrance-info').bPopup();
+            });
+        });
+    })(jQuery);
+
     (function ($) {
         $(function () {
             $('#popupdiv1').on('click', function (e) {
