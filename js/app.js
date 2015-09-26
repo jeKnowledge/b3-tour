@@ -22,16 +22,21 @@ var app = {
                 $(this).mapster('set', false);
             }
         });
+
+        $(image).mapster('resize', 0, $(window).height(), 0);
+
+        $(window).bind('resize', function () {
+            $(image).mapster('resize', 0, $(window).height(), 0);
+        });
     }
 };
 
 var main = function () {
     app.changeRoom($('#myimage'));
 
-
     $('#popupdiv1entrance').click(function(){
         app.changeRoom($('#myimagehall'));
-    })
+    });
 
     $('#mapster_wrap_0').css({
         'margin-left': 'auto',
@@ -51,13 +56,6 @@ var main = function () {
     function redirectPage() {
         window.location = linkLocation;
     }
-
-    $('img').mapster('resize', 0, $(window).height(), 0);
-
-    $(window).bind('resize', function () {
-        $('img').mapster('resize', 0, $(window).height(), 0);
-    });
-
 
     /* FUNÇÕES DE POPUP */
     (function ($) {
