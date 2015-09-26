@@ -44,6 +44,12 @@ var main = function () {
         app.changeRoom($('#myimage123'));
     });
 
+
+    $('#popupdiv1hall').click(function() {
+        app.changeRoom($('#myimagetec'));
+    });
+
+
     $('#mapster_wrap_0').css({
         'margin-left': 'auto',
         'margin-right': 'auto'
