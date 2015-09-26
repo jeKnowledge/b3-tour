@@ -1,18 +1,10 @@
 var app = {
-    currentRoomImage: 'images/door.jpg',
-
-
-    changeRoom: function (newRoom) {
-        this.currentRoomImage = newRoom;
-
-        
-
-        $('#myimage').attr('src', this.currentRoomImage);
-
-
+    changeRoom: function (image) {
+        $('.mapper').hide();
+        $(image).show();
 
         // HIGHLIGHT E RESIZE DAS COORDENADAS
-        $('#myimage').mapster({
+        $(image).mapster({
             singleSelect: true,
             fill: true,
             fillOpacity: 0.6,
@@ -30,16 +22,11 @@ var app = {
                 $(this).mapster('set', false);
             }
         });
-
     }
 };
 
 var main = function () {
-
-
-
-    app.changeRoom('images/door.jpg');
-
+    app.changeRoom($('#myimage'));
 
     $('#mapster_wrap_0').css({
         'margin-left': 'auto',
@@ -119,29 +106,4 @@ var main = function () {
     })(jQuery);
 };
 
-
 $(document).ready(main);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

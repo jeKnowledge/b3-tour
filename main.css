@@ -12,6 +12,7 @@ body {
 
 .mapper {
     width: 100%;
+    display: none;
 }
 
 /* IMAGEM DE FUNDO, EMBORA NÃO SEJA TOTALMENTE UM BACKGROUND! */
