@@ -11,11 +11,11 @@ var app = {
 
         console.log($(image).parent());
 
-        /*$(image).mapster('resize', 0, $(window).height(), 0);
+        $(image).mapster('resize', 0, $(window).height(), 0);
 
         $(window).bind('resize', function () {
             $(image).mapster('resize', 0, $(window).height(), 0);
-        });*/
+        });
     }
 };
 
@@ -64,6 +64,11 @@ var main = function () {
     });
 
     $('#popupdiv1tec').click(function () {
+        app.changeRoom($('#myimagehall'));
+    });
+
+
+    $('#popupdiv1ino').click(function () {
         app.changeRoom($('#myimagehall'));
     });
 
