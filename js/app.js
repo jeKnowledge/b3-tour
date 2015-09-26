@@ -55,13 +55,13 @@ var main = function () {
         app.changeRoom($('#jek-hall'));
     });
 
-    $('#popupdiv2hall').click(function () {
+    $('#innovation-transition').click(function () {
         app.changeRoom($('#jek-innovation'));
     });
 
 
-    $('#popupdiv1hall').click(function () {
-        app.changeRoom($('#myimagetec'));
+    $('#technology-transition').click(function () {
+        app.changeRoom($('#jek-technology'));
     });
 
     $('#popupdiv1tec').click(function () {
@@ -89,12 +89,37 @@ var main = function () {
 
     (function ($) {
         $(function () {
-            $('#hall-sign').on('click', function (e) {
+            $('#entrance-sign').on('click', function (e) {
                 e.preventDefault();
                 $('#div-entrance-info').bPopup();
             });
         });
     })(jQuery);
+
+    /* POPUPS NO HALL */
+
+    (function ($) {
+        $(function () {
+            $('#hall-contacts').on('click', function (e) {
+                e.preventDefault();
+                $('#div-hall-contacts').bPopup();
+            });
+        });
+    })(jQuery);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     (function ($) {
         $(function () {

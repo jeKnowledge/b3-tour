@@ -31,8 +31,6 @@ body {
     background-color: #85ADFF;
     position: absolute;
     display: none;
-    font:inherit;
-    font-size:3;
 
 }
 
@@ -43,6 +41,29 @@ body {
     margin-right: 100px;
 }
 
+/* HALL */
+
+#div-hall-contacts{
+    width: 500px;
+    margin-left: 600px;
+    margin-right: 600px;
+    border-radius: 7px;
+    padding: 0 6px 2px;
+    color: black;
+    cursor: default;
+    text-align: center;
+    text-decoration: none;
+    background-color: #85ADFF;
+    position: absolute;
+    display: none;
+}
+
+#img-div-hall-contacts {
+    width: 300px;
+    height: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 #imgdiv1 {
     width: 300px;
