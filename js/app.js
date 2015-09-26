@@ -49,6 +49,9 @@ var main = function () {
         app.changeRoom($('#myimagetec'));
     });
 
+    $('#popupdiv1tec').click(function() {
+        app.changeRoom($('#myimagehall'));
+    });
 
     $('#mapster_wrap_0').css({
         'margin-left': 'auto',
