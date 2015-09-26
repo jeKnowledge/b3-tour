@@ -28,6 +28,11 @@ var app = {
 var main = function () {
     app.changeRoom($('#myimage'));
 
+
+    $('#popupdiv1entrance').click(function(){
+        app.changeRoom($('#myimagehall'));
+    })
+
     $('#mapster_wrap_0').css({
         'margin-left': 'auto',
         'margin-right': 'auto'
