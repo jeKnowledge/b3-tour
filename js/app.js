@@ -143,6 +143,45 @@ var main = function () {
         });
     })(jQuery);
 
+    (function ($) {
+        $(function () {
+            $('#hall-integrity').on('click', function (e) {
+                e.preventDefault();
+                $('#div-hall-integrity').bPopup();
+            });
+        });
+    })(jQuery);
+
+    (function ($) {
+        $(function () {
+            $('#hall-profissionalism').on('click', function (e) {
+                e.preventDefault();
+                $('#div-hall-profissionalism').bPopup();
+            });
+        });
+    })(jQuery);
+
+     (function ($) {
+        $(function () {
+            $('#hall-entrepreneurship').on('click', function (e) {
+                e.preventDefault();
+                $('#div-hall-entrepreneurship').bPopup();
+            });
+        });
+    })(jQuery);
+
+    (function ($) {
+        $(function () {
+            $('#hall-recruitment').on('click', function (e) {
+                e.preventDefault();
+                $('#div-hall-recruitment').bPopup();
+            });
+        });
+    })(jQuery);
+
+
+
+
 
 
 
