@@ -183,9 +183,35 @@ var main = function () {
 
 
 
+    /* POPUPS NA SALA DE TECNOLOGIA */
 
 
+    (function ($) {
+        $(function () {
+            $('#technology-quality').on('click', function (e) {
+                e.preventDefault();
+                $('#div-technology-quality').bPopup();
+            });
+        });
+    })(jQuery);
 
+    (function ($) {
+        $(function () {
+            $('#technology-transparency').on('click', function (e) {
+                e.preventDefault();
+                $('#div-technology-transparency').bPopup();
+            });
+        });
+    })(jQuery);
+
+    (function ($) {
+        $(function () {
+            $('#technology-timelapse').on('click', function (e) {
+                e.preventDefault();
+                $('#div-technology-timelapse').bPopup();
+            });
+        });
+    })(jQuery);
 
 
 
