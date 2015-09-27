@@ -69,14 +69,14 @@ body {
 }
 
 
-#imgdiv1 {
+#imgdiv1, #imgdiv2, #imgdiv3, #imgdiv4 {
     width: 300px;
     height: 150px;
     margin-left: 100px;
     margin-right: 100px;
 }
 
-#div1 {
+#div1, #div2, #div3, #div4 {
     width: 500px;
     margin-left: 600px;
     margin-right: 600px;
@@ -92,80 +92,8 @@ body {
 
 }
 
-#imgdiv1 {
-    width: 300px;
-    height: 150px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
 
-#imgdiv2 {
-    width: 300px;
-    height: 150px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
 
-#div2 {
-    width: 500px;
-    margin-left: 600px;
-    margin-right: 600px;
-    border-radius: 7px;
-    padding: 0 6px 2px;
-    color: black;
-    cursor: default;
-    text-align: center;
-    text-decoration: none;
-    background-color: #85ADFF;
-    position: absolute;
-    display: none;
-}
-
-#imgdiv4 {
-    width: 300px;
-    height: 150px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-#div4 {
-    width: 500px;
-    margin-left: 600px;
-    margin-right: 600px;
-    border-radius: 7px;
-    padding: 0 6px 2px;
-    color: black;
-    cursor: default;
-    text-align: center;
-    text-decoration: none;
-    background-color: #85ADFF;
-    position: absolute;
-    display: none;
-}
-
-#imgdiv3 {
-    width: 300px;
-    height: 150px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 20px;
-}
-
-#div3 {
-    width: 500px;
-    width: 500px;
-    margin-left: 600px;
-    margin-right: 600px;
-    border-radius: 7px;
-    padding: 0 6px 2px;
-    color: black;
-    cursor: default;
-    text-align: center;
-    text-decoration: none;
-    background-color: #85ADFF;
-    position: absolute;
-    display: none;
-}
 
 /*VIDEO JEKNOWLEDGE ACADEMY*/
 
