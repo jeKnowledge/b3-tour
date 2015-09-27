@@ -213,6 +213,55 @@ var main = function () {
         });
     })(jQuery);
 
+    (function ($) {
+        $(function () {
+            $('#technology-results').on('click', function (e) {
+                e.preventDefault();
+                $('#div-technology-results').bPopup();
+            });
+        });
+    })(jQuery);
+
+    (function ($) {
+        $(function () {
+            $('#technology-teamwork').on('click', function (e) {
+                e.preventDefault();
+                $('#div-technology-teamwork').bPopup();
+            });
+        });
+    })(jQuery);
+
+    (function ($) {
+        $(function () {
+            $('#technology-ambition').on('click', function (e) {
+                e.preventDefault();
+                $('#div-technology-ambition').bPopup();
+            });
+        });
+    })(jQuery);
+
+
+
+    (function ($) {
+        $(function () {
+            $('#technology-services').on('click', function (e) {
+                e.preventDefault();
+                $('#div-technology-services').bPopup();
+            });
+        });
+    })(jQuery);
+
+    (function ($) {
+        $(function () {
+            $('#technology-wifi').on('click', function (e) {
+                e.preventDefault();
+                $('#div-technology-wifi').bPopup();
+            });
+        });
+    })(jQuery);
+
+
+
 
 
 
@@ -224,9 +273,9 @@ var main = function () {
 
     (function ($) {
         $(function () {
-            $('#popupdiv1').on('click', function (e) {
+            $('#innovation-people').on('click', function (e) {
                 e.preventDefault();
-                $('#div1').bPopup();
+                $('#div-innovation-people').bPopup();
             });
         });
     })(jQuery);
@@ -244,9 +293,9 @@ var main = function () {
 
     (function ($) {
         $(function () {
-            $('#popupdiv3').on('click', function (e) {
+            $('#innovation-blog').on('click', function (e) {
                 e.preventDefault();
-                $('#div3').bPopup();
+                $('#div-innovation-blog').bPopup();
             });
         });
     })(jQuery);
@@ -264,9 +313,9 @@ var main = function () {
 
     (function ($) {
         $(function () {
-            $('#popupdiv5').on('click', function (e) {
+            $('#innovation-jekacademy').on('click', function (e) {
                 e.preventDefault();
-                $('#div5').bPopup();
+                $('#div-innovation-jekacademy').bPopup();
             });
         });
 
