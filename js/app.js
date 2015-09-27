@@ -283,16 +283,6 @@ var main = function () {
 
     (function ($) {
         $(function () {
-            $('#popupdiv2').on('click', function (e) {
-                e.preventDefault();
-                $('#div2').bPopup();
-            });
-        });
-    })(jQuery);
-
-
-    (function ($) {
-        $(function () {
             $('#innovation-blog').on('click', function (e) {
                 e.preventDefault();
                 $('#div-innovation-blog').bPopup();
@@ -303,9 +293,19 @@ var main = function () {
 
     (function ($) {
         $(function () {
-            $('#popupdiv4').on('click', function (e) {
+            $('#innovation-shiftappens').on('click', function (e) {
                 e.preventDefault();
-                $('#div4').bPopup();
+                $('#div-innovation-shiftappens').bPopup();
+            });
+        });
+    })(jQuery);
+
+
+    (function ($) {
+        $(function () {
+            $('#innovation-praxe').on('click', function (e) {
+                e.preventDefault();
+                $('#div-innovation-praxe').bPopup();
             });
         });
     })(jQuery);
@@ -316,6 +316,16 @@ var main = function () {
             $('#innovation-jekacademy').on('click', function (e) {
                 e.preventDefault();
                 $('#div-innovation-jekacademy').bPopup();
+            });
+        });
+
+    })(jQuery);
+
+    (function ($) {
+        $(function () {
+            $('#innovation-sjm').on('click', function (e) {
+                e.preventDefault();
+                $('#div-innovation-sjm').bPopup();
             });
         });
 
