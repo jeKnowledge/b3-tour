@@ -70,7 +70,7 @@ body {
 
 
 /* TECNOLOGIA */
-#div-technology-quality, #div-technology-transparency, #div-technology-results, #div-technology-teamwork, #div-technology-ambition, #div-technology-services, #div-technology-wifi{
+#div-technology-quality, #div-technology-transparency, #div-technology-results, #div-technology-teamwork, #div-technology-ambition, #div-technology-services, {
     width: 500px;
     margin-left: 600px;
     margin-right: 600px;
@@ -86,7 +86,7 @@ body {
 }
 
 
-#img-div-technology-quality, #img-div-technology-transparency, #img-div-technology-results, #img-div-technology-teamwork, #img-div-technology-ambition, #img-div-technology-services, #img-div-technology-wifi{
+#img-div-technology-quality, #img-div-technology-transparency, #img-div-technology-results, #img-div-technology-teamwork, #img-div-technology-ambition, #img-div-technology-services, {
     width: 300px;
     height: 150px;
     margin-left: 100px;

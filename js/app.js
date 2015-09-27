@@ -251,22 +251,6 @@ var main = function () {
         });
     })(jQuery);
 
-    (function ($) {
-        $(function () {
-            $('#technology-wifi').on('click', function (e) {
-                e.preventDefault();
-                $('#div-technology-wifi').bPopup();
-            });
-        });
-    })(jQuery);
-
-
-
-
-
-
-
-
 
 
 
