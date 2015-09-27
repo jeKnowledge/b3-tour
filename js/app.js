@@ -64,7 +64,7 @@ var main = function () {
         app.changeRoom($('#jek-technology'));
     });
 
-    $('#popupdiv1tec').click(function () {
+    $('#hall-transition2').click(function () {
         app.changeRoom($('#jek-hall'));
     });
 
