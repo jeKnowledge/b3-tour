@@ -7,6 +7,14 @@ var app = {
         $(image).show();
         $(image).parent().show();
 
+        $('body').css('display', 'none');
+
+        
+        $('body').fadeIn(1500);
+
+ 
+
+
         // HIGHLIGHT E RESIZE DAS COORDENADAS
 
         console.log($(image).parent());
