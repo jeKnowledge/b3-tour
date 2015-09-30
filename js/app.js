@@ -216,7 +216,19 @@ var main = function () {
         $(function () {
             $('#technology-timelapse').on('click', function (e) {
                 e.preventDefault();
-                $('#div-technology-timelapse').bPopup();
+                $('#div-technology-timelapse').bPopup({
+                    modalClose: true,
+                    opacity: 0.6,
+                    positionStyle: 'fixed', //'fixed' or 'absolute
+                    onClose: function() {
+                      var iframe = $('#iframe-timelapse'),
+                          iframe_src = iframe.attr('src');
+
+                      iframe.attr('src', '');
+                      iframe.attr('src', iframe_src);
+                    }
+
+                });
             });
         });
     })(jQuery);
@@ -302,22 +314,44 @@ var main = function () {
         });
     })(jQuery);
 
-
+    
     (function ($) {
         $(function () {
             $('#innovation-jekacademy').on('click', function (e) {
                 e.preventDefault();
-                $('#div-innovation-jekacademy').bPopup();
+                $('#div-innovation-jekacademy').bPopup({
+                    modalClose: true,
+                    opacity: 0.6,
+                    positionStyle: 'fixed', //'fixed' or 'absolute
+                    onClose: function() {
+                      var iframe = $('#iframe-jekacademy'),
+                          iframe_src = iframe.attr('src');
+
+                      iframe.attr('src', '');
+                      iframe.attr('src', iframe_src);
+                    }
+
+                });
             });
         });
-
     })(jQuery);
 
     (function ($) {
         $(function () {
             $('#innovation-sjm').on('click', function (e) {
                 e.preventDefault();
-                $('#div-innovation-sjm').bPopup();
+                $('#div-innovation-sjm').bPopup({
+                    modalClose: true,
+                    opacity: 0.6,
+                    positionStyle: 'fixed', //'fixed' or 'absolute
+                    onClose: function() {
+                      var iframe = $('#iframe-sjm'),
+                          iframe_src = iframe.attr('src');
+
+                      iframe.attr('src', '');
+                      iframe.attr('src', iframe_src);
+                    }
+                });
             });
         });
 
