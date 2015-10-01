@@ -10,10 +10,10 @@ var app = {
         $('body').css('display', 'none');
 
         
-        $('body').fadeIn(1500);
-
+        $('body').fadeIn(1500, function () {
+            $('#hall-transition').pulse({opacity: 0.8}, {duration : 100, pulses : 5});
+        });
  
-
 
         // HIGHLIGHT E RESIZE DAS COORDENADAS
 
@@ -59,9 +59,11 @@ var main = function () {
         }
     });
 
+
     $('#hall-transition').click(function () {
         app.changeRoom($('#jek-hall'));
     });
+
 
     $('#innovation-transition').click(function () {
         app.changeRoom($('#jek-innovation'));
@@ -86,6 +88,8 @@ var main = function () {
         linkLocation = this.href;
         $("body").fadeOut(1000, redirectPage);
     });
+
+
 
     function redirectPage() {
         window.location = linkLocation;
@@ -359,3 +363,4 @@ var main = function () {
 };
 
 $(document).ready(main);
+
