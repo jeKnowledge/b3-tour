@@ -1,394 +1,445 @@
-        <!DOCTYPE html>
+<!DOCTYPE html>
 
-        <html lang="en">
+<html lang="en">
 
-        <head>
-            <meta charset="utf-8"/>
-            <title>jeKnowledge's Interative Website</title>
-            <link href="main.css" rel="stylesheet">
+<head>
+    <meta charset="utf-8"/>
+    <title>jeKnowledge's Interative Website</title>
+    <link href="main.css" rel="stylesheet">
 
-            <!-- IMAGE MAPSTER-->
-            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+    <!-- IMAGE MAPSTER-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
 
-            <script src="js/jquery.imagemapster.js" type="text/javascript"></script>
+    <script src="js/jquery.imagemapster.js" type="text/javascript"></script>
 
-            <!-- BPOPUP -->
-            <script src="js/jquery.bpopup.min.js"></script>
+    <!-- BPOPUP -->
+    <script src="js/jquery.bpopup.min.js"></script>
 
+<<<<<<< HEAD
             <!-- JQUERY PULSE -->
             <script src="js/jsoverson-jquery.pulse.js-e1044ad"></script>
+=======
+    <!-- JQUERY PULSE -->
+    <script src="js/jsoverson-jquery.pulse.js-e1044ad/jquery.pulse.js"></script>
+>>>>>>> a4ae547d7416fb913b4822ec72cd5674cdc3cd9f
 
-            <script src="js/app.js" type="text/javascript"></script>
-        </head>
+    <script src="js/app.js" type="text/javascript"></script>
 
+    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+</head>
 
-        <body>
 
-            <!-- COORDENADAS DO IMAGE MAPPING DA ENTRADA -->
-            <div>
-                <map name="jek-entrance">
+<body>
 
-                    <area href="#" id="hall-transition" shape="poly"
-                    coords="1618, 463, 1628, 1287, 1600, 1293, 1601, 1387, 1616, 1394, 1627, 1396, 1668, 2707, 1657, 2711, 1528, 2873, 1547, 3258, 1794, 3264, 1903, 3059, 1906, 2985, 3450, 2982, 3600, 3410, 3660, 3412, 3665, 3423, 3725, 2111, 3740, 2109, 3748, 2124, 3763, 2128, 3773, 2120, 3781, 2107, 3782, 2086, 3782, 2069, 3777, 2056, 3771, 2047, 3759, 2046, 3748, 2052, 3742, 2067, 3729, 2064, 3762, 307, 3693, 310, 3561, 459" title="Welcome to jeKnowledge"/>
-                    <area href="#" id="entrance-sign" shape="poly" coords="2507, 205, 2836, 204, 2836, 325, 2504, 331, 2497, 339, 2488, 345, 2481, 351, 2470, 359, 2458, 363, 2416, 463, 2370, 362, 2358, 357, 2343, 348, 2330, 333, 2317, 315, 2308, 286, 2305, 263, 2308, 240, 2314, 218, 2324, 204, 2338, 186, 2352, 175, 2369, 166, 2388, 158, 2408, 156, 2431, 156, 2449, 160, 2468, 167, 2480, 177, 2490, 186, 2498, 193" title="jeKnowledge"/>
-                </map>
-            </div>
+<!-- COORDENADAS DO IMAGE MAPPING DA ENTRADA -->
+<div>
+    <map name="jek-entrance">
 
-            <!-- IMAGEM DA ENTRADA -->
-            <img class="mapper" id="jek-entrance" src="images/door.JPG" usemap="#jek-entrance"/>
+        <area href="#" id="hall-transition" shape="poly"
+              coords="1618, 463, 1628, 1287, 1600, 1293, 1601, 1387, 1616, 1394, 1627, 1396, 1668, 2707, 1657, 2711, 1528, 2873, 1547, 3258, 1794, 3264, 1903, 3059, 1906, 2985, 3450, 2982, 3600, 3410, 3660, 3412, 3665, 3423, 3725, 2111, 3740, 2109, 3748, 2124, 3763, 2128, 3773, 2120, 3781, 2107, 3782, 2086, 3782, 2069, 3777, 2056, 3771, 2047, 3759, 2046, 3748, 2052, 3742, 2067, 3729, 2064, 3762, 307, 3693, 310, 3561, 459"
+              title="Welcome to jeKnowledge"/>
+        <area href="#" id="entrance-sign" shape="poly"
+              coords="2507, 205, 2836, 204, 2836, 325, 2504, 331, 2497, 339, 2488, 345, 2481, 351, 2470, 359, 2458, 363, 2416, 463, 2370, 362, 2358, 357, 2343, 348, 2330, 333, 2317, 315, 2308, 286, 2305, 263, 2308, 240, 2314, 218, 2324, 204, 2338, 186, 2352, 175, 2369, 166, 2388, 158, 2408, 156, 2431, 156, 2449, 160, 2468, 167, 2480, 177, 2490, 186, 2498, 193"
+              title="jeKnowledge"/>
+    </map>
+</div>
 
+<!-- IMAGEM DA ENTRADA -->
+<img class="mapper" id="jek-entrance" src="images/door.JPG" usemap="#jek-entrance"/>
 
 
-            <!-- COORDENADAS DO IMAGE MAPPING DO HALL -->
+<!-- COORDENADAS DO IMAGE MAPPING DO HALL -->
 
-            <div>
+<div>
 
-              <map name="jek-hall">
+    <map name="jek-hall">
 
-                <area href="#" id="technology-transition" shape="poly" coords="546, 371, 1191, 313, 1437, 2422, 991, 2909" title="Technology Room" />
-                <area href="#" id="innovation-transition" shape="poly" coords="1855, 663, 2281, 664, 2292, 978, 1870, 972" title="Innovation Room"/>
-                <area href="#" id="hall-contacts" shape="poly" coords="3207, 566, 3186, 2047, 3195, 2053, 3235, 2055, 3266, 2056, 3313, 2056, 3358, 2055, 3409, 2052, 3449, 2048, 3482, 2046, 3521, 2045, 3573, 2043, 3621, 2043, 3673, 2047, 3722, 2049, 3767, 2053, 3811, 2055, 3859, 2059, 3902, 2062, 3940, 2066, 3975, 2065, 4002, 2065, 4014, 2068, 4024, 2063, 4278, 2083, 5081, 2146, 5182, 1729, 5181, 597" title="Contacts" />
-                <area href="#" id="hall-partners" shape="poly" coords="2829, 1000, 2831, 1227, 2988, 1232, 2992, 1006" title="Partners"/>
-                <area href="#" id="hall-philosophy" shape="poly" coords="2626, 994, 2624, 1218, 2778, 1229, 2789, 1003" title="Philosophy"/>
-                <area href="#" id="hall-journey" shape="poly" coords="2427, 994, 2436, 1214, 2587, 1221, 2586, 996" title="Our Journey" />
-                <area href="#" id="hall-criativity" shape="poly" coords="2234, 992, 2240, 1209, 2389, 1220, 2391, 996" title="Criativity" />
-                <area href="#" id="hall-integrity" shape="poly" coords="2048, 991, 2060, 1208, 2207, 1212, 2200, 995" title="Integrity"/>
-                <area href="#" id="hall-profissionalism" shape="poly" coords="2461, 738, 3109, 750, 3100, 946, 2461, 926" title="Profissionalism"/>
-                <area href="#" id="hall-entrepreneurship" shape="poly" coords="2008, 1477, 2153, 1856, 2414, 1789, 2272, 1397" title="Entrepreneurship"/>
-                <area href="#" id="hall-recruitment" shape="poly" coords="189, 699, 182, 709, 175, 722, 170, 738, 163, 756, 161, 770, 160, 783, 157, 798, 152, 816, 146, 830, 144, 841, 141, 856, 141, 875, 140, 890, 135, 906, 127, 924, 122, 936, 117, 950, 119, 963, 120, 974, 125, 987, 132, 999, 139, 1009, 147, 1017, 156, 1026, 162, 1044, 175, 1078, 193, 1129, 214, 1179, 224, 1227, 240, 1229, 232, 1239, 231, 1248, 231, 1259, 232, 1270, 233, 1283, 236, 1296, 237, 1305, 246, 1314, 254, 1323, 263, 1329, 267, 1336, 263, 1344, 267, 1350, 275, 1371, 274, 1382, 292, 1477, 296, 1498, 294, 1557, 241, 1585, 206, 1600, 162, 1616, 143, 1618, 133, 1613, 84, 1627, 79, 1635, 98, 1700, 118, 1770, 142, 1802, 154, 1808, 172, 1800, 168, 1758, 179, 1697, 174, 1693, 176, 1678, 185, 1676, 192, 1678, 460, 1592, 472, 1585, 480, 1574, 484, 1564, 487, 1509, 480, 1457, 463, 1387, 454, 1361, 462, 1365, 471, 1357, 479, 1344, 480, 1319, 479, 1309, 453, 1283, 402, 1141, 390, 1120, 382, 1089, 324, 923, 278, 891, 286, 880, 294, 871, 309, 849, 322, 842, 322, 829, 335, 829, 338, 824, 326, 790, 333, 789, 330, 771, 339, 762, 341, 748, 339, 738, 331, 728, 322, 715, 311, 707, 297, 697, 280, 693, 263, 686, 246, 682, 223, 685, 206, 689" title="Recruitment" />
+        <area href="#" id="technology-transition" shape="poly" coords="546, 371, 1191, 313, 1437, 2422, 991, 2909" title="Technology Room"/>
+        <area href="#" id="innovation-transition" shape="poly" coords="1855, 663, 2281, 664, 2292, 978, 1870, 972" title="Innovation Room"/>
+        <area href="#" id="hall-contacts" shape="poly"
+              coords="3207, 566, 3186, 2047, 3195, 2053, 3235, 2055, 3266, 2056, 3313, 2056, 3358, 2055, 3409, 2052, 3449, 2048, 3482, 2046, 3521, 2045, 3573, 2043, 3621, 2043, 3673, 2047, 3722, 2049, 3767, 2053, 3811, 2055, 3859, 2059, 3902, 2062, 3940, 2066, 3975, 2065, 4002, 2065, 4014, 2068, 4024, 2063, 4278, 2083, 5081, 2146, 5182, 1729, 5181, 597"
+              title="Contacts"/>
+        <area href="#" id="hall-partners" shape="poly" coords="2829, 1000, 2831, 1227, 2988, 1232, 2992, 1006" title="Partners"/>
+        <area href="#" id="hall-philosophy" shape="poly" coords="2626, 994, 2624, 1218, 2778, 1229, 2789, 1003" title="Philosophy"/>
+        <area href="#" id="hall-journey" shape="poly" coords="2427, 994, 2436, 1214, 2587, 1221, 2586, 996" title="Our Journey"/>
+        <area href="#" id="hall-criativity" shape="poly" coords="2234, 992, 2240, 1209, 2389, 1220, 2391, 996" title="Criativity"/>
+        <area href="#" id="hall-integrity" shape="poly" coords="2048, 991, 2060, 1208, 2207, 1212, 2200, 995" title="Integrity"/>
+        <area href="#" id="hall-profissionalism" shape="poly" coords="2461, 738, 3109, 750, 3100, 946, 2461, 926" title="Profissionalism"/>
+        <area href="#" id="hall-entrepreneurship" shape="poly" coords="2008, 1477, 2153, 1856, 2414, 1789, 2272, 1397"
+              title="Entrepreneurship"/>
+        <area href="#" id="hall-recruitment" shape="poly"
+              coords="189, 699, 182, 709, 175, 722, 170, 738, 163, 756, 161, 770, 160, 783, 157, 798, 152, 816, 146, 830, 144, 841, 141, 856, 141, 875, 140, 890, 135, 906, 127, 924, 122, 936, 117, 950, 119, 963, 120, 974, 125, 987, 132, 999, 139, 1009, 147, 1017, 156, 1026, 162, 1044, 175, 1078, 193, 1129, 214, 1179, 224, 1227, 240, 1229, 232, 1239, 231, 1248, 231, 1259, 232, 1270, 233, 1283, 236, 1296, 237, 1305, 246, 1314, 254, 1323, 263, 1329, 267, 1336, 263, 1344, 267, 1350, 275, 1371, 274, 1382, 292, 1477, 296, 1498, 294, 1557, 241, 1585, 206, 1600, 162, 1616, 143, 1618, 133, 1613, 84, 1627, 79, 1635, 98, 1700, 118, 1770, 142, 1802, 154, 1808, 172, 1800, 168, 1758, 179, 1697, 174, 1693, 176, 1678, 185, 1676, 192, 1678, 460, 1592, 472, 1585, 480, 1574, 484, 1564, 487, 1509, 480, 1457, 463, 1387, 454, 1361, 462, 1365, 471, 1357, 479, 1344, 480, 1319, 479, 1309, 453, 1283, 402, 1141, 390, 1120, 382, 1089, 324, 923, 278, 891, 286, 880, 294, 871, 309, 849, 322, 842, 322, 829, 335, 829, 338, 824, 326, 790, 333, 789, 330, 771, 339, 762, 341, 748, 339, 738, 331, 728, 322, 715, 311, 707, 297, 697, 280, 693, 263, 686, 246, 682, 223, 685, 206, 689"
+              title="Recruitment"/>
 
-            </map>
+    </map>
 
-        </div>
+</div>
 
-        <!-- IMAGEM DO HALL -->
-        <img class="mapper" id="jek-hall" src="images/hall.JPG" usemap="#jek-hall" />
+<!-- IMAGEM DO HALL -->
+<img class="mapper" id="jek-hall" src="images/hall.JPG" usemap="#jek-hall"/>
 
 
+<!-- COORDENADAS DO IMAGE MAPPING DA SALA DE TECNOLOGIA -->
 
+<div>
+    <map name="webjektechnology">
 
+        <area href="#" id="hall-transition2" shape="poly"
+              coords="1320, 283, 1368, 283, 1456, 258, 1459, 277, 1491, 278, 1492, 282, 1910, 292, 1997, 2044, 1991, 2045, 1969, 2037, 1960, 2043, 1632, 2168, 1663, 2520, 1638, 2523, 1636, 2531, 1483, 2256"
+              title="jeKnowledge hall"/>
+        <area href="#" id="technology-results" shape="poly" coords="4616, 699, 4836, 712, 4819, 866, 4598, 850" title="Results"/>
+        <area href="#" id="technology-teamwork" shape="poly" coords="4128, 852, 4150, 553, 4368, 558, 4341, 872" title="Teamwork"/>
+        <area href="#" id="technology-ambition" shape="poly" coords="3736, 707, 3747, 572, 3869, 576, 3881, 716" title="Ambition"/>
+        <area href="#" id="technology-services" shape="poly" coords="3495, 806, 3515, 530, 3335, 519, 3317, 791" title="Services"/>
 
 
+        <area href="#" id="technology-quality" shape="poly"
+              coords="0, 2597, 112, 2560, 200, 2302, 208, 2297, 366, 2410, 411, 2394, 442, 2408, 436, 2377, 438, 2359, 449, 2340, 522, 2265, 517, 2241, 525, 2231, 527, 2209, 535, 2202, 551, 2197, 562, 2193, 573, 2193, 640, 2133, 657, 2133, 690, 2167, 697, 2168, 701, 2179, 697, 2190, 688, 2198, 626, 2247, 658, 2268, 686, 2302, 711, 2334, 727, 2365, 731, 2365, 1021, 2551, 1034, 2514, 1040, 2513, 1335, 2751, 1318, 2613, 1317, 2602, 1324, 2588, 1337, 2581, 1363, 2568, 1382, 2564, 1403, 2563, 1423, 2563, 1447, 2568, 1459, 2579, 1470, 2607, 1476, 2633, 1485, 2779, 1484, 2836, 2120, 3209, 2129, 3221, 2132, 3231, 2136, 3280, 2127, 3301, 2138, 3453, 2, 3453"
+              title="Quality"/>
 
-        <!-- COORDENADAS DO IMAGE MAPPING DA SALA DE TECNOLOGIA -->
+        <area href="#" id="technology-transparency" shape="poly"
+              coords="3623, 1812, 3911, 1657, 3924, 1655, 3937, 1658, 4849, 1829, 4862, 1819, 4875, 1814, 4883, 1812, 4892, 1793, 4901, 1790, 4909, 1784, 4953, 1765, 4959, 1763, 4964, 1753, 4981, 1752, 4986, 1743, 4995, 1743, 5006, 1750, 5020, 1758, 5032, 1774, 5066, 1781, 5090, 1778, 5114, 1790, 5135, 1793, 5148, 1805, 5167, 1822, 5113, 2175, 4013, 1942, 4079, 1967, 4130, 1997, 4156, 2042, 4170, 2109, 4171, 2145, 4170, 2163, 4174, 2186, 4361, 2253, 4372, 2267, 4376, 2285, 4372, 2308, 4356, 2325, 4332, 2337, 4303, 2358, 4329, 2628, 4296, 2624, 4277, 2368, 4192, 2418, 4179, 2607, 4147, 2608, 4126, 2614, 4109, 2624, 4101, 2638, 4096, 2700, 4095, 2756, 4102, 2822, 4045, 2802, 4068, 2733, 4056, 2724, 4055, 2696, 4033, 2599, 3954, 2551, 3954, 2570, 3947, 2576, 3929, 2572, 3924, 2474, 3843, 2431, 3821, 2428, 3792, 2435, 3767, 2445, 3744, 2507, 3682, 2727, 3672, 2737, 3653, 2725, 3661, 2698, 3639, 2672, 3633, 2631, 3599, 2616, 3637, 2241, 3594, 2224, 3624, 1850, 3616, 1842"
+              title="Transparecy"/>
 
-        <div>
-          <map name="webjektechnology">
+        <area href="#" id="technology-timelapse" shape="poly"
+              coords="3293, 1126, 3301, 932, 3586, 959, 3598, 952, 3611, 946, 3623, 937, 3639, 934, 3657, 934, 3676, 939, 3692, 939, 3707, 945, 3720, 953, 3731, 966, 3735, 971, 3739, 969, 3738, 976, 3729, 982, 3722, 991, 3720, 997, 3727, 1019, 3737, 1027, 3745, 1029, 3768, 1047, 3777, 1066, 3784, 1078, 3789, 1094, 3793, 1108, 3894, 1121, 3895, 1111, 3900, 1107, 3913, 1108, 3913, 1098, 3917, 1088, 3926, 1081, 3939, 1069, 3953, 1063, 3967, 1061, 3979, 1064, 3987, 1069, 3994, 1066, 3997, 1074, 3995, 1085, 4007, 1084, 4023, 1080, 4042, 966, 4386, 999, 4358, 1207, 4345, 1209, 4408, 1259, 4413, 1138, 4573, 1147, 4570, 1128, 4566, 1119, 4563, 1107, 4567, 1095, 4571, 1083, 4582, 1022, 4613, 1000, 4647, 987, 4680, 984, 4706, 999, 4718, 1020, 4721, 1044, 4721, 1072, 4714, 1095, 4714, 1112, 4710, 1126, 4702, 1140, 4693, 1147, 4684, 1161, 4678, 1166, 4687, 1176, 4707, 1179, 4753, 1192, 4770, 1189, 4791, 1204, 4800, 1212, 4810, 1208, 4822, 1210, 4833, 1211, 4850, 1208, 4866, 1206, 4876, 1216, 4884, 1224, 4902, 1225, 4942, 1007, 5182, 1027, 5183, 1526, 4952, 1506, 4960, 1514, 4964, 1528, 4966, 1544, 4969, 1563, 4967, 1582, 4966, 1598, 4962, 1615, 4957, 1632, 4951, 1646, 4941, 1658, 4922, 1667, 4907, 1670, 4904, 1707, 4913, 1715, 4921, 1727, 4926, 1741, 4929, 1755, 4929, 1765, 4927, 1776, 4917, 1775, 4906, 1781, 4900, 1790, 4894, 1788, 4882, 1812, 4761, 1811, 4719, 1805, 4670, 1798, 4627, 1787, 4586, 1779, 4584, 1769, 4570, 1765, 4527, 1707, 4519, 1704, 4515, 1772, 4345, 1739, 4324, 1634, 4325, 1613, 4334, 1595, 4344, 1575, 4363, 1566, 4385, 1563, 4406, 1563, 4418, 1566, 4425, 1558, 4443, 1550, 4458, 1423, 4225, 1393, 4227, 1422, 4227, 1462, 4230, 1480, 4236, 1498, 4236, 1517, 4240, 1540, 4252, 1567, 4261, 1587, 4256, 1609, 4270, 1612, 4279, 1626, 4285, 1724, 4258, 1721, 4257, 1677, 4234, 1673, 4230, 1714, 3916, 1655, 3890, 1668, 3876, 1655, 3857, 1660, 3859, 1680, 3826, 1701, 3836, 1661, 3831, 1595, 3826, 1472, 3828, 1429, 3843, 1399, 3859, 1383, 3863, 1352, 3728, 1338, 3711, 1546, 3693, 1540, 3650, 1538, 3629, 1546, 3617, 1560, 3566, 1531, 3539, 1562, 3547, 1665, 3532, 1695, 3516, 1583, 3449, 1657, 3431, 1828, 3413, 1826, 3419, 1788, 3399, 1788, 3384, 1783, 3371, 1769, 3357, 1754, 3345, 1730, 3337, 1714, 3329, 1700, 3328, 1711, 3314, 1709, 3304, 1548, 3255, 1534, 3241, 1540, 3193, 1780, 3176, 1782, 3224, 1534, 3218, 1524, 3219, 1395, 3205, 1384, 3197, 1370, 3195, 1344, 3193, 1314, 3195, 1296, 3198, 1279, 3214, 1264, 3024, 1243, 3028, 1660, 3018, 1664, 3004, 1660, 3007, 1230, 2962, 1224, 2962, 1211, 3185, 1157, 3191, 1141, 3219, 1124, 3232, 1126, 3242, 1139, 3249, 1143, 3304, 1150, 3345, 1165, 3382, 1143, 3410, 1146, 3410, 1139"
+              title="36º Coimbra Scene Meetup Timelapse"/>
 
-            <area href="#" id="hall-transition2" shape="poly" coords="1320, 283, 1368, 283, 1456, 258, 1459, 277, 1491, 278, 1492, 282, 1910, 292, 1997, 2044, 1991, 2045, 1969, 2037, 1960, 2043, 1632, 2168, 1663, 2520, 1638, 2523, 1636, 2531, 1483, 2256" title="jeKnowledge hall" />
-            <area href="#" id="technology-results" shape="poly" coords="4616, 699, 4836, 712, 4819, 866, 4598, 850" title="Results"/>
-            <area href="#" id="technology-teamwork" shape="poly" coords="4128, 852, 4150, 553, 4368, 558, 4341, 872" title="Teamwork"/>
-            <area href="#" id="technology-ambition" shape="poly" coords="3736, 707, 3747, 572, 3869, 576, 3881, 716" title="Ambition"/>
-            <area href="#" id="technology-services" shape="poly" coords="3495, 806, 3515, 530, 3335, 519, 3317, 791" title="Services"/>
-            
+    </map>
+</div>
 
-            <area href="#" id="technology-quality"shape="poly" coords="0, 2597, 112, 2560, 200, 2302, 208, 2297, 366, 2410, 411, 2394, 442, 2408, 436, 2377, 438, 2359, 449, 2340, 522, 2265, 517, 2241, 525, 2231, 527, 2209, 535, 2202, 551, 2197, 562, 2193, 573, 2193, 640, 2133, 657, 2133, 690, 2167, 697, 2168, 701, 2179, 697, 2190, 688, 2198, 626, 2247, 658, 2268, 686, 2302, 711, 2334, 727, 2365, 731, 2365, 1021, 2551, 1034, 2514, 1040, 2513, 1335, 2751, 1318, 2613, 1317, 2602, 1324, 2588, 1337, 2581, 1363, 2568, 1382, 2564, 1403, 2563, 1423, 2563, 1447, 2568, 1459, 2579, 1470, 2607, 1476, 2633, 1485, 2779, 1484, 2836, 2120, 3209, 2129, 3221, 2132, 3231, 2136, 3280, 2127, 3301, 2138, 3453, 2, 3453" title="Quality"/>
+<!-- IMAGEM DA SALA DE TECNOLOGIA -->
+<img class="mapper" id="jek-technology" src="images/technology.JPG" usemap="#webjektechnology">
 
-            <area href="#" id="technology-transparency" shape="poly" coords="3623, 1812, 3911, 1657, 3924, 1655, 3937, 1658, 4849, 1829, 4862, 1819, 4875, 1814, 4883, 1812, 4892, 1793, 4901, 1790, 4909, 1784, 4953, 1765, 4959, 1763, 4964, 1753, 4981, 1752, 4986, 1743, 4995, 1743, 5006, 1750, 5020, 1758, 5032, 1774, 5066, 1781, 5090, 1778, 5114, 1790, 5135, 1793, 5148, 1805, 5167, 1822, 5113, 2175, 4013, 1942, 4079, 1967, 4130, 1997, 4156, 2042, 4170, 2109, 4171, 2145, 4170, 2163, 4174, 2186, 4361, 2253, 4372, 2267, 4376, 2285, 4372, 2308, 4356, 2325, 4332, 2337, 4303, 2358, 4329, 2628, 4296, 2624, 4277, 2368, 4192, 2418, 4179, 2607, 4147, 2608, 4126, 2614, 4109, 2624, 4101, 2638, 4096, 2700, 4095, 2756, 4102, 2822, 4045, 2802, 4068, 2733, 4056, 2724, 4055, 2696, 4033, 2599, 3954, 2551, 3954, 2570, 3947, 2576, 3929, 2572, 3924, 2474, 3843, 2431, 3821, 2428, 3792, 2435, 3767, 2445, 3744, 2507, 3682, 2727, 3672, 2737, 3653, 2725, 3661, 2698, 3639, 2672, 3633, 2631, 3599, 2616, 3637, 2241, 3594, 2224, 3624, 1850, 3616, 1842" title="Transparecy"/>
 
-            <area href="#" id="technology-timelapse" shape="poly" coords="3293, 1126, 3301, 932, 3586, 959, 3598, 952, 3611, 946, 3623, 937, 3639, 934, 3657, 934, 3676, 939, 3692, 939, 3707, 945, 3720, 953, 3731, 966, 3735, 971, 3739, 969, 3738, 976, 3729, 982, 3722, 991, 3720, 997, 3727, 1019, 3737, 1027, 3745, 1029, 3768, 1047, 3777, 1066, 3784, 1078, 3789, 1094, 3793, 1108, 3894, 1121, 3895, 1111, 3900, 1107, 3913, 1108, 3913, 1098, 3917, 1088, 3926, 1081, 3939, 1069, 3953, 1063, 3967, 1061, 3979, 1064, 3987, 1069, 3994, 1066, 3997, 1074, 3995, 1085, 4007, 1084, 4023, 1080, 4042, 966, 4386, 999, 4358, 1207, 4345, 1209, 4408, 1259, 4413, 1138, 4573, 1147, 4570, 1128, 4566, 1119, 4563, 1107, 4567, 1095, 4571, 1083, 4582, 1022, 4613, 1000, 4647, 987, 4680, 984, 4706, 999, 4718, 1020, 4721, 1044, 4721, 1072, 4714, 1095, 4714, 1112, 4710, 1126, 4702, 1140, 4693, 1147, 4684, 1161, 4678, 1166, 4687, 1176, 4707, 1179, 4753, 1192, 4770, 1189, 4791, 1204, 4800, 1212, 4810, 1208, 4822, 1210, 4833, 1211, 4850, 1208, 4866, 1206, 4876, 1216, 4884, 1224, 4902, 1225, 4942, 1007, 5182, 1027, 5183, 1526, 4952, 1506, 4960, 1514, 4964, 1528, 4966, 1544, 4969, 1563, 4967, 1582, 4966, 1598, 4962, 1615, 4957, 1632, 4951, 1646, 4941, 1658, 4922, 1667, 4907, 1670, 4904, 1707, 4913, 1715, 4921, 1727, 4926, 1741, 4929, 1755, 4929, 1765, 4927, 1776, 4917, 1775, 4906, 1781, 4900, 1790, 4894, 1788, 4882, 1812, 4761, 1811, 4719, 1805, 4670, 1798, 4627, 1787, 4586, 1779, 4584, 1769, 4570, 1765, 4527, 1707, 4519, 1704, 4515, 1772, 4345, 1739, 4324, 1634, 4325, 1613, 4334, 1595, 4344, 1575, 4363, 1566, 4385, 1563, 4406, 1563, 4418, 1566, 4425, 1558, 4443, 1550, 4458, 1423, 4225, 1393, 4227, 1422, 4227, 1462, 4230, 1480, 4236, 1498, 4236, 1517, 4240, 1540, 4252, 1567, 4261, 1587, 4256, 1609, 4270, 1612, 4279, 1626, 4285, 1724, 4258, 1721, 4257, 1677, 4234, 1673, 4230, 1714, 3916, 1655, 3890, 1668, 3876, 1655, 3857, 1660, 3859, 1680, 3826, 1701, 3836, 1661, 3831, 1595, 3826, 1472, 3828, 1429, 3843, 1399, 3859, 1383, 3863, 1352, 3728, 1338, 3711, 1546, 3693, 1540, 3650, 1538, 3629, 1546, 3617, 1560, 3566, 1531, 3539, 1562, 3547, 1665, 3532, 1695, 3516, 1583, 3449, 1657, 3431, 1828, 3413, 1826, 3419, 1788, 3399, 1788, 3384, 1783, 3371, 1769, 3357, 1754, 3345, 1730, 3337, 1714, 3329, 1700, 3328, 1711, 3314, 1709, 3304, 1548, 3255, 1534, 3241, 1540, 3193, 1780, 3176, 1782, 3224, 1534, 3218, 1524, 3219, 1395, 3205, 1384, 3197, 1370, 3195, 1344, 3193, 1314, 3195, 1296, 3198, 1279, 3214, 1264, 3024, 1243, 3028, 1660, 3018, 1664, 3004, 1660, 3007, 1230, 2962, 1224, 2962, 1211, 3185, 1157, 3191, 1141, 3219, 1124, 3232, 1126, 3242, 1139, 3249, 1143, 3304, 1150, 3345, 1165, 3382, 1143, 3410, 1146, 3410, 1139" title="36º Coimbra Scene Meetup Timelapse"/>
+<!-- COORDENADAS DO IMAGE MAPPING DA SALA DA INOVAÇÃO -->
+<div>
+    <map name="jek-innovation">
 
-        </map>
-    </div>
 
-    <!-- IMAGEM DA SALA DE TECNOLOGIA -->
-    <img class="mapper" id="jek-technology" src="images/technology.JPG" usemap="#webjektechnology">
+        <area href="#" id="innovation-people" shape="poly"
+              coords="2, 432, 9, 421, 26, 423, 45, 426, 62, 442, 71, 455, 72, 468, 69, 481, 65, 489, 66, 500, 82, 503, 100, 509, 112, 522, 122, 537, 127, 549, 134, 563, 141, 578, 148, 589, 146, 594, 154, 605, 164, 621, 161, 633, 162, 643, 163, 645, 214, 629, 215, 655, 237, 648, 237, 639, 229, 639, 224, 613, 225, 585, 229, 560, 238, 549, 250, 539, 259, 507, 270, 488, 284, 482, 305, 471, 318, 464, 314, 454, 321, 439, 324, 417, 333, 401, 348, 390, 367, 391, 380, 397, 387, 406, 392, 419, 392, 432, 391, 442, 388, 450, 387, 462, 409, 469, 423, 481, 432, 493, 441, 507, 449, 524, 455, 534, 454, 539, 460, 551, 466, 566, 474, 574, 476, 587, 492, 587, 487, 604, 593, 692, 633, 678, 646, 734, 776, 833, 0, 831"
+              title="People in Innovation Department"/>
 
+        <area href="#" id="innovation-blog" shape="poly"
+              coords="-1, 415, 21, 413, 128, 401, 129, 381, 129, 371, 198, 363, 205, 369, 214, 384, 230, 382, 234, 376, 238, 369, 248, 364, 253, 362, 247, 355, 254, 348, 280, 358, 286, 355, 303, 361, 306, 366, 327, 369, 330, 378, 342, 378, 350, 388, 349, 350, 398, 321, 404, 378, 414, 389, 416, 406, 436, 419, 439, 427, 453, 409, 464, 410, 475, 418, 479, 429, 480, 446, 481, 455, 482, 584, 476, 589, 476, 578, 465, 567, 465, 469, 422, 477, 386, 471, 390, 454, 393, 439, 393, 421, 390, 407, 376, 396, 364, 390, 345, 396, 331, 405, 322, 419, 320, 439, 313, 450, 319, 462, 261, 502, 113, 524, 99, 512, 84, 504, 66, 503, 64, 489, 70, 474, 69, 459, 63, 444, 52, 430, 39, 424, 26, 420, 8, 426, 0, 431"
+              title="Blog"/>
 
+        <area href="#" id="innovation-shiftappens" shape="poly"
+              coords="418, 95, 446, 96, 447, 107, 474, 106, 474, 151, 447, 148, 447, 138, 422, 139" title="ShiftAppens"/>
 
-    <!-- COORDENADAS DO IMAGE MAPPING DA SALA DA INOVAÇÃO -->
-    <div>
-        <map name="jek-innovation">
+        <area href="#" id="innovation-praxe" shape="poly"
+              coords="755, 344, 751, 411, 742, 411, 744, 350, 727, 348, 565, 367, 561, 492, 549, 491, 557, 365, 504, 347, 504, 462, 491, 456, 481, 430, 470, 408, 466, 398, 459, 394, 447, 394, 436, 395, 425, 392, 417, 387, 414, 381, 414, 327, 411, 317, 412, 305, 425, 290, 429, 281, 429, 273, 434, 260, 445, 253, 454, 249, 463, 246, 463, 233, 467, 221, 479, 215, 486, 222, 491, 232, 488, 243, 485, 252, 496, 258, 504, 269, 510, 280, 512, 288, 542, 287, 558, 279, 576, 272, 591, 275, 594, 244, 660, 241, 661, 222, 752, 239, 742, 332"
+              title="Praxe UC"/>
 
+        <area href="#" id="innovation-jekacademy" shape="poly" coords="794, 421, 866, 174, 1033, 195, 955, 470" alt="jekAcademy"
+              title="jeKnowledge Academy"/>
 
-            <area href="#" id="innovation-people" shape="poly"
-            coords="2, 432, 9, 421, 26, 423, 45, 426, 62, 442, 71, 455, 72, 468, 69, 481, 65, 489, 66, 500, 82, 503, 100, 509, 112, 522, 122, 537, 127, 549, 134, 563, 141, 578, 148, 589, 146, 594, 154, 605, 164, 621, 161, 633, 162, 643, 163, 645, 214, 629, 215, 655, 237, 648, 237, 639, 229, 639, 224, 613, 225, 585, 229, 560, 238, 549, 250, 539, 259, 507, 270, 488, 284, 482, 305, 471, 318, 464, 314, 454, 321, 439, 324, 417, 333, 401, 348, 390, 367, 391, 380, 397, 387, 406, 392, 419, 392, 432, 391, 442, 388, 450, 387, 462, 409, 469, 423, 481, 432, 493, 441, 507, 449, 524, 455, 534, 454, 539, 460, 551, 466, 566, 474, 574, 476, 587, 492, 587, 487, 604, 593, 692, 633, 678, 646, 734, 776, 833, 0, 831" title="People in Innovation Department"/>
+        <area href="#" id="innovation-sjm" shape="poly" coords="1251, 799, 961, 666, 1017, 442, 1251, 507" alt="sjmeeting"
+              title="Summer Jade Meeting"/>
 
-            <area href="#" id="innovation-blog" shape="poly"
-            coords="-1, 415, 21, 413, 128, 401, 129, 381, 129, 371, 198, 363, 205, 369, 214, 384, 230, 382, 234, 376, 238, 369, 248, 364, 253, 362, 247, 355, 254, 348, 280, 358, 286, 355, 303, 361, 306, 366, 327, 369, 330, 378, 342, 378, 350, 388, 349, 350, 398, 321, 404, 378, 414, 389, 416, 406, 436, 419, 439, 427, 453, 409, 464, 410, 475, 418, 479, 429, 480, 446, 481, 455, 482, 584, 476, 589, 476, 578, 465, 567, 465, 469, 422, 477, 386, 471, 390, 454, 393, 439, 393, 421, 390, 407, 376, 396, 364, 390, 345, 396, 331, 405, 322, 419, 320, 439, 313, 450, 319, 462, 261, 502, 113, 524, 99, 512, 84, 504, 66, 503, 64, 489, 70, 474, 69, 459, 63, 444, 52, 430, 39, 424, 26, 420, 8, 426, 0, 431" title="Blog"/>
+        <area href="#" id="popupdiv1ino" shape="poly" coords="825, 101, 852, 101, 840, 263, 796, 422, 829, 437, 814, 535, 790, 540"
+              title="Go to Hall"/>
+    </map>
+</div>
 
-            <area href="#" id="innovation-shiftappens" shape="poly" coords="418, 95, 446, 96, 447, 107, 474, 106, 474, 151, 447, 148, 447, 138, 422, 139" title="ShiftAppens"/>
+<!-- IMAGEM SALA DE INOVAÇÃO -->
+<img class="mapper" id="jek-innovation" src="images/innovation.jpg" usemap="#jek-innovation">
 
-            <area href="#" id="innovation-praxe" shape="poly"
-            coords="755, 344, 751, 411, 742, 411, 744, 350, 727, 348, 565, 367, 561, 492, 549, 491, 557, 365, 504, 347, 504, 462, 491, 456, 481, 430, 470, 408, 466, 398, 459, 394, 447, 394, 436, 395, 425, 392, 417, 387, 414, 381, 414, 327, 411, 317, 412, 305, 425, 290, 429, 281, 429, 273, 434, 260, 445, 253, 454, 249, 463, 246, 463, 233, 467, 221, 479, 215, 486, 222, 491, 232, 488, 243, 485, 252, 496, 258, 504, 269, 510, 280, 512, 288, 542, 287, 558, 279, 576, 272, 591, 275, 594, 244, 660, 241, 661, 222, 752, 239, 742, 332" title="Praxe UC"/>
 
-            <area href="#" id="innovation-jekacademy" shape="poly" coords="794, 421, 866, 174, 1033, 195, 955, 470" alt="jekAcademy" title="jeKnowledge Academy"/>
+<!-- DIVS DO POPUP E BOTÕES PARA FECHAR -->
 
-            <area href="#" id="innovation-sjm" shape="poly" coords="1251, 799, 961, 666, 1017, 442, 1251, 507" alt="sjmeeting" title="Summer Jade Meeting"/>
+<!-- POPUPS NA ENTRADA -->
 
-            <area href="#" id="popupdiv1ino" shape="poly" coords="825, 101, 852, 101, 840, 263, 796, 422, 829, 437, 814, 535, 790, 540" title="Go to Hall"/>
-        </map>
-    </div>
+<div id="div-entrance-info" class="container">
+    <a class="button b-close">x</a>
+        <h3>Fundação da jeKnowledge</h3>
 
-    <!-- IMAGEM SALA DE INOVAÇÃO -->
-    <img class="mapper" id="jek-innovation" src="images/innovation.jpg" usemap="#jek-innovation">
+        <p>A jeKnowledge foi fundada em 2008 com o objetivo de, através de um conjunto de projetos internos e externos, proporcionar aos alunos dos vários cursos da FCTUC a possibilidade de aplicar o conhecimento adquirido na Universidade no mercado global, tal como a aprendizagem de novos.</p>
 
+        <p>A nossa organização conta constantemente com entre 20 a 30 associados, sendo que desde a sua data de fundação já passaram por esta mais de 60 talentos. Alguns deles saíram para criar a suas próprias startups, como a Bundlr e Unplugg. Também é de referir que a jeKnowledge é um dos 7 membros fundadores da JADE Portugal – a federação de júniores empresas nacional.</p>
 
+        <img src="images/JK_MRC_EMP.png" class="jek-logo">
+</div>
 
-    <!-- DIVS DO POPUP E BOTÕES PARA FECHAR -->
+<!-- POPUPS NO HALL -->
 
-    <!-- POPUPS NA ENTRADA -->
+<div id="div-hall-contacts" class="container">
+    <a class="button b-close">x</a>
+        <img src="images/JK_MRC_EMP.png" class="jek-logo">
 
-    <div id="div-entrance-info" class="container">
-        <a class="button b-close">x<a/>
-            <img id="img-div-entrance-info" src="images/logo_palavrasp.png">
+        <p>Podes encontrar-nos no Departamento de Física, sala B3, Rua Larga, P-3004-516.</p>
 
-            <p>A jeKnowledge foi fundada em 2008 com o objetivo de, através de um conjunto de projetos internos e externos, proporcionar aos alunos dos vários cursos da FCTUC a possibilidade de aplicar o conhecimento adquirido na Universidade no mercado global, tal como a aprendizagem de novos.</p>
-            <p>A nossa organização conta constantemente com entre 20 a 30 associados, sendo que desde a sua data de fundação já passaram por esta mais de 60 talentos. Alguns deles saíram para criar a suas próprias startups, como a Bundlr e Unplugg. Também é de referir que a jeKnowledge é um dos 7 membros fundadores da JADE Portugal – a federação de júniores empresas nacional.</p>
-        </div>
+        <p>Ou então contacta-nos através de geral@jeknowledge.com, ou se preferires através do telefone +351 912 630 105</p>
 
-        <!-- POPUPS NO HALL -->
+        <p>Podes ainda passar pelo nosso <a target="_blank" href="https://www.facebook.com/jeknowledge">Facebook</a>, <a target="_blank"
+                                                                                                                         href="https://www.linkedin.com/company/jeknowledge">LinkedIn</a>
+        </p> <a target="_blank" href="https://twitter.com/jeknowledge">Twitter</a> ou até mesmo pelo <a target="_blank"
+                                                                                                        href="https://www.flickr.com/photos/jeknowledge">Flickr</a>
+</div>
 
-    <div id="div-hall-contacts" class="container">
-        <a class="button b-close">x<a/>
-            <img id="img-div-hall-contacts" src="images/logo_palavrasp.png">
 
-            <p>Podes encontrar-nos no Departamento de Física, sala B3, Rua Larga, P-3004-516.</p>
-            <p>Ou então contacta-nos através de geral@jeknowledge.com, ou se preferires através do telefone +351 912 630 105</p>
-            <p>Podes ainda passar pelo nosso <a target="_blank" href="https://www.facebook.com/jeknowledge">Facebook</a>, <a target="_blank" href="https://www.linkedin.com/company/jeknowledge">LinkedIn</a></p> <a target="_blank" href="https://twitter.com/jeknowledge">Twitter</a> ou até mesmo pelo <a target="_blank" href="https://www.flickr.com/photos/jeknowledge">Flickr</a>
-    </div>
+<div id="div-hall-partners" class="container">
+    <a class="button b-close">x</a>
+        <img src="images/JK_MRC_EMP.png" class="jek-logo">
 
+        <p>A nossa posição priviligiada enquanto Júnior Empresa permite-nos oferecer aos nossos parceiros vantagens únicas, como ajudá-los a contratar os melhores, a colocar as pessoas certas nos locais certos. Somos ainda um veículo eficaz de marketing e branding no meio em que nos inserimos.</p>
 
-    <div id="div-hall-partners" class="container">
-        <a class="button b-close">x<a/>
-            <img id="img-div-hall-partners" src="images/logo_palavrasp.png">
+        <p>Por tudo isso temos vindo a desenvolver parcerias, sendo a mais notória destas o ineo. Mais que um blog, é uma marca de empreendedorismo para Coimbra e Portugal, implementada online nas redes, e offline através de eventos direccionados a jovens com ideias ou vontade.</p>
 
-            <p>A nossa posição priviligiada enquanto Júnior Empresa permite-nos oferecer aos nossos parceiros vantagens únicas, como ajudá-los a contratar os melhores, a colocar as pessoas certas nos locais certos. Somos ainda um veículo eficaz de marketing e branding no meio em que nos inserimos.</p>
+        <p>Estamos sempre em busca de novas sinergias que tragam mais valias para ambas as partes, portanto se acha que temos objectivos comuns ou complementares, contacte-nos. Juntos podemos fazer a diferença através de parcerias win-win.</p>
+</div>
 
-            <p>Por tudo isso temos vindo a desenvolver parcerias, sendo a mais notória destas o ineo. Mais que um blog, é uma marca de empreendedorismo para Coimbra e Portugal, implementada online nas redes, e offline através de eventos direccionados a jovens com ideias ou vontade.</p>
+<div id="div-hall-philosophy" class="container">
+    <a class="button b-close">x</a>
+        <img src="images/JK_MRC_EMP.png" class="jek-logo">
 
-            <p>Estamos sempre em busca de novas sinergias que tragam mais valias para ambas as partes, portanto se acha que temos objectivos comuns ou complementares, contacte-nos. Juntos podemos fazer a diferença através de parcerias win-win.</p>
-    </div>
+        <p>Na jeKnowledge damos muita importância à nossa cultura de startup. Temos uma equipa ambiciosa e exigente, que não se contenta com a formação base dos seus cursos, sempre ansiosa por aprender, praticar, fazer.</p>
 
-    <div id="div-hall-philosophy" class="container">
-        <a class="button b-close">x<a/>
-            <img id="img-div-hall-philosophy" src="images/logo_palavrasp.png">
+        <p>Fazemos todos os possíveis para fomentar a criatividade e boa disposição dos nossos associados: na nossa organização estamos sempre abertos à discussão de novas ideias, e fazemos os possíveis para que todos trabalhem naquilo que mais gostam. Em parte, isso pode-se verificar pela nossa estrutura, que pretende diminuir ao máximo a distância entre os vários associados.</p>
+</div>
 
-            <p>Na jeKnowledge damos muita importância à nossa cultura de startup. Temos uma equipa ambiciosa e exigente, que não se contenta com a formação base dos seus cursos, sempre ansiosa por aprender, praticar, fazer.</p>
+<div id="div-hall-journey" class="container">
+    <a class="button b-close">x</a>
+        <img src="images/JK_MRC_EMP.png" class="jek-logo">
 
-            <p>Fazemos todos os possíveis para fomentar a criatividade e boa disposição dos nossos associados: na nossa organização estamos sempre abertos à discussão de novas ideias, e fazemos os possíveis para que todos trabalhem naquilo que mais gostam. Em parte, isso pode-se verificar pela nossa estrutura, que pretende diminuir ao máximo a distância entre os vários associados.</p>
-    </div>
+        <p>
 
-    <div id="div-hall-journey" class="container">
-        <a class="button b-close">x<a/>
-            <img id="img-div-hall-journey" src="images/logo_palavrasp.png">
+        <h2>The Journey is the Reward</h2></p>
 
-            <p><h2>The Journey is the Reward</h2></p>
+        <p>Com a jeKnowledge os nossos associados não procuram receber dinheiro, preencher currículos, ou serem a nova estrela dos média. O nosso principal objetivo é aprender, e é durante o processo que isso acontece. Tudo o resto são subprodutos.</p>
+</div>
 
-            <p>Com a jeKnowledge os nossos associados não procuram receber dinheiro, preencher currículos, ou serem a nova estrela dos média. O nosso principal objetivo é aprender, e é durante o processo que isso acontece. Tudo o resto são subprodutos.</p>
-    </div>
+<div id="div-hall-criativity" class="container">
+    <a class="button b-close">x</a>
+        <img src="images/JK_MRC_EMP.png" class="jek-logo">
 
-    <div id="div-hall-criativity" class="container">
-        <a class="button b-close">x<a/>
-            <img id="img-div-hall-criativity" src="images/logo_palavrasp.png">
+        <p>
 
-            <p><h2>Criativade e Inovação</h2></p>
+        <h2>Criativade e Inovação</h2></p>
 
-            <p>Para nós, fazer mais do mesmo não nos dá gozo. Nós gostamos de fazer diferente, seja completamente novo ou modificando algo que já existe. Toda a nossa cultura e estrutura organizacional está feita para fomentar ao máximo a criativade dos nossos associados, estando nós sempre abertos para discutir qualquer nova ideia.</p>
-    </div>
+        <p>Para nós, fazer mais do mesmo não nos dá gozo. Nós gostamos de fazer diferente, seja completamente novo ou modificando algo que já existe. Toda a nossa cultura e estrutura organizacional está feita para fomentar ao máximo a criativade dos nossos associados, estando nós sempre abertos para discutir qualquer nova ideia.</p>
+</div>
 
-    <div id="div-hall-integrity" class="container">
-        <a class="button b-close">x<a/>
-            <img id="img-div-hall-integrity" src="images/logo_palavrasp.png">
+<div id="div-hall-integrity" class="container">
+    <a class="button b-close">x</a>
+        <img src="images/JK_MRC_EMP.png" class="jek-logo">
 
-            <p><h2>Integridade</h2></p>
+        <p>
 
-            <p>Integridade consiste em tratar todas as pessoas pelo mesmo conjunto de valores, em fazer o que devemos em vez do que o que podemos, em fazer o que é correto quando ninguém está a ver. Só assim podemos trabalhar numa organização onde cada membro sabe o que pode esperar do outro, e onde o cliente sabe o que esperar da organização.</p>
-    </div>
+        <h2>Integridade</h2></p>
 
-    <div id="div-hall-profissionalism" class="container">
-        <a class="button b-close">x<a/>
-            <img id="img-div-hall-profissionalism" src="images/logo_palavrasp.png">
+        <p>Integridade consiste em tratar todas as pessoas pelo mesmo conjunto de valores, em fazer o que devemos em vez do que o que podemos, em fazer o que é correto quando ninguém está a ver. Só assim podemos trabalhar numa organização onde cada membro sabe o que pode esperar do outro, e onde o cliente sabe o que esperar da organização.</p>
+</div>
 
-            <p><h2>Empreendorismo e Ação</h2></p>
+<div id="div-hall-profissionalism" class="container">
+    <a class="button b-close">x</a>
+        <img src="images/JK_MRC_EMP.png" class="jek-logo">
 
-            <p>Para nós não se trata de uma buzzword, mas sim de uma atitude. Apesar de sermos constituídos apenas por estudantes, nós acreditamos naquilo que sabemos fazer. Tudo é levado a sério, como em qualquer boa empresa. Mas acreditem que não nos deixamos de divertir por isso.</p>
-    </div>
+        <p>
 
-    <div id="div-hall-entrepreneurship" class="container">
-        <a class="button b-close">x<a/>
-            <img id="img-div-hall-entrepreneurship" src="images/logo_palavrasp.png">
+        <h2>Empreendorismo e Ação</h2></p>
 
-            <p><h2>Profissionalismo</h2></p>
+        <p>Para nós não se trata de uma buzzword, mas sim de uma atitude. Apesar de sermos constituídos apenas por estudantes, nós acreditamos naquilo que sabemos fazer. Tudo é levado a sério, como em qualquer boa empresa. Mas acreditem que não nos deixamos de divertir por isso.</p>
+</div>
 
-            <p>Na jeKnowledge é simples: nós queremos fazer coisas. Nós temos uma vontade constante para construir, e acreditamos que é a fazer que aprendemos. Por isso é que restringimos o planeamento ao mínimo, e ação ao máximo.</p>
-    </div>
+<div id="div-hall-entrepreneurship" class="container">
+    <a class="button b-close">x</a>
+        <img src="images/JK_MRC_EMP.png" class="jek-logo">
 
-    <div id="div-hall-recruitment" class="container">
-        <a class="button b-close">x<a/>
-            <img id="img-div-hall-recruitment" src="images/logo_palavrasp.png">
+        <p>
 
-            <p><h2>Recrutamento</h2></p>
+        <h2>Profissionalismo</h2></p>
 
-            <p>A jeKnowledge é uma júnior empresa constituída por estudantes da FCTUC, e que tem atualmente mais de 20 associados ativos. Contudo queremos continuar a crescer e a providenciar oportunidades de aprendizagem aos alunos da FCTUC. Assim, e sobretudo para responder à nossa constante procura de pessoas extraordinárias, talentosas, com ânsia de aprender e espirito inovador, abrimos todos os anos o nosso Recrutamento.</p>
-            <p>Para saberes o que precisas de fazer para te juntares a nós visita já a nossa <a target="_blank" href="http://jeknowledge.pt/recrutamento/">página de recrutamento</a> e habilita-te a fazer parte desta aventura!</p>
-    </div>
+        <p>Na jeKnowledge é simples: nós queremos fazer coisas. Nós temos uma vontade constante para construir, e acreditamos que é a fazer que aprendemos. Por isso é que restringimos o planeamento ao mínimo, e ação ao máximo.</p>
+</div>
 
+<div id="div-hall-recruitment" class="container">
+    <a class="button b-close">x</a>
+        <img src="images/JK_MRC_EMP.png" class="jek-logo">
 
-        <!-- POPUPS NA SALA DE TECNOLOGIA -->
+        <p>
 
+        <h2>Recrutamento</h2></p>
 
-    <div id="div-technology-quality" class="container">
-        <a class="button b-close">x<a/>
-            <img id="img-div-technology-quality" src="images/logo_palavrasp.png">
+        <p>A jeKnowledge é uma júnior empresa constituída por estudantes da FCTUC, e que tem atualmente mais de 20 associados ativos. Contudo queremos continuar a crescer e a providenciar oportunidades de aprendizagem aos alunos da FCTUC. Assim, e sobretudo para responder à nossa constante procura de pessoas extraordinárias, talentosas, com ânsia de aprender e espirito inovador, abrimos todos os anos o nosso Recrutamento.</p>
 
-            <p><h2>Qualidade</h2></p>
+        <p>Para saberes o que precisas de fazer para te juntares a nós visita já a nossa <a target="_blank"
+                                                                                            href="http://jeknowledge.pt/recrutamento/">página de recrutamento</a> e habilita-te a fazer parte desta aventura!
+        </p>
+</div>
 
-            <p>Na jeKnowledge gostamos de fazer coisas de que nos orgulhemos, e damos o nosso máximo para que isso aconteça. Nada é feito para desenrascar. Contudo, também não nos deixamos levar pelo “aperfeiçoamento infinito” – nós queremos entregar. Gostamos de ser os artistas com orgulho de assinar o quadro, mas que não querem que ele fique para sempre guardado na gaveta.</p>
-            
-    </div>
 
-    <div id="div-technology-transparency" class="container">
-        <a class="button b-close">x<a/>
-            <img id="img-div-technology-transparency" src="images/logo_palavrasp.png">
+<!-- POPUPS NA SALA DE TECNOLOGIA -->
 
-            <p><h2>Transparência</h2></p>
 
-            <p>Não temos problema em partilhar informação sobre a nossa organização, dentro ou fora desta. Sejam documentos, informação sobre projetos passados ou o até mesmo o nosso saldo bancário. Fazemos isto não só porque achamos que não temos nada a esconder, como achamos que é criando uma comunidade aberta à partilha e troca de boas práticas que surgem sinergias. Contudo, não queremos dizer que não existem barreiras sobre o que podemos divulgar, especialmente quando o é requisitado por um cliente.</p>
-            
-    </div>
+<div id="div-technology-quality" class="container">
+    <a class="button b-close">x</a>
+        <img src="images/JK_MRC_EMP.png" class="jek-logo">
 
+        <p>
 
-    <div id="div-technology-timelapse" class="container">
-        <a class="button b-close">x<a/>
+        <h2>Qualidade</h2></p>
 
-    <div id="iframediv-timelapse">
+        <p>Na jeKnowledge gostamos de fazer coisas de que nos orgulhemos, e damos o nosso máximo para que isso aconteça. Nada é feito para desenrascar. Contudo, também não nos deixamos levar pelo “aperfeiçoamento infinito” – nós queremos entregar. Gostamos de ser os artistas com orgulho de assinar o quadro, mas que não querem que ele fique para sempre guardado na gaveta.</p>
+
+</div>
+
+<div id="div-technology-transparency" class="container">
+    <a class="button b-close">x</a>
+        <img src="images/JK_MRC_EMP.png" class="jek-logo">
+
+        <p>
+
+        <h2>Transparência</h2></p>
+
+        <p>Não temos problema em partilhar informação sobre a nossa organização, dentro ou fora desta. Sejam documentos, informação sobre projetos passados ou o até mesmo o nosso saldo bancário. Fazemos isto não só porque achamos que não temos nada a esconder, como achamos que é criando uma comunidade aberta à partilha e troca de boas práticas que surgem sinergias. Contudo, não queremos dizer que não existem barreiras sobre o que podemos divulgar, especialmente quando o é requisitado por um cliente.</p>
+
+</div>
+
+
+<div id="div-technology-timelapse" class="container">
+    <a class="button b-close">x</a>
+
+        <div id="iframediv-timelapse">
             <iframe id="iframe-timelapse" src="https://player.vimeo.com/video/140535394" width="500" height="281" frameborder="0"
-            webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
-    </div>
+</div>
 
 
+<div id="div-technology-results" class="container">
+    <a class="button b-close">x</a>
+        <img src="images/JK_MRC_EMP.png" class="jek-logo">
 
-    <div id="div-technology-results" class="container">
-        <a class="button b-close">x<a/>
-            <img id="img-div-technology-results" src="images/logo_palavrasp.png">
+        <p>
 
-            <p><h2>O reconhecimento vem dos resultados</h2></p>
+        <h2>O reconhecimento vem dos resultados</h2></p>
 
-            <p>Não gostamos de abanar bandeiras e cartazes para fazer acreditar que aquilo que fazemos é bom. Gostamos sim de deixar os nossos projetos mais alto, e usá-los para mostrar aquilo que somos.</p>
-            
-    </div>
+        <p>Não gostamos de abanar bandeiras e cartazes para fazer acreditar que aquilo que fazemos é bom. Gostamos sim de deixar os nossos projetos mais alto, e usá-los para mostrar aquilo que somos.</p>
 
-    <div id="div-technology-teamwork" class="container">
-        <a class="button b-close">x<a/>
-            <img id="img-div-technology-teamwork" src="images/logo_palavrasp.png">
+</div>
 
-            <p><h2>Espírito de Equipa</h2></p>
+<div id="div-technology-teamwork" class="container">
+    <a class="button b-close">x</a>
+        <img src="images/JK_MRC_EMP.png" class="jek-logo">
 
-            <p>Sem trabalho de equipa não existem boas organizações, empresas ou júniores empresas. Apenas com o trabalho de equipa e as sinergias criadas conseguimos fazer com que o todo seja superior à soma das partes. E nós sabemos que, no mundo real, não sobrevive quem apenas sabe trabalhar sozinho.</p>
-            
-    </div>
+        <p>
 
-    <div id="div-technology-ambition" class="container">
-        <a class="button b-close">x<a/>
-            <img id="img-div-technology-ambition" src="images/logo_palavrasp.png">
+        <h2>Espírito de Equipa</h2></p>
 
-            <p><h2>Ambição</h2></p>
+        <p>Sem trabalho de equipa não existem boas organizações, empresas ou júniores empresas. Apenas com o trabalho de equipa e as sinergias criadas conseguimos fazer com que o todo seja superior à soma das partes. E nós sabemos que, no mundo real, não sobrevive quem apenas sabe trabalhar sozinho.</p>
 
-            <p>Numa organização é claro que todos têm que ter alguma ambição. Todos querem ser um pouco melhores hoje do que aquilo que eram ontem. Mas numa Júnior Empresa isso é reforçado uma vez que é por isso que fazemos parte deste projeto, é esse o nosso objetivo. Porque queremos aprender, todos os dias, para crescermos e fazer algo de que nos orgulhemos.</p>
-            
-    </div>
+</div>
 
-    <div id="div-technology-services" class="container">
-        <a class="button b-close">x<a/>
-            <img id="img-div-technology-services" src="images/logo_palavrasp.png">
+<div id="div-technology-ambition" class="container">
+    <a class="button b-close">x</a>
+        <img src="images/JK_MRC_EMP.png" class="jek-logo">
 
-            <p><h2>Serviços</h2></p>
+        <p>
 
-            <p>Apesar de sermos uma júnior empresa de base tecnológica, os nossos serviços têm evoluído continuamente e de forma sustentada, permitindo-nos atuar num variado leque de áreas. Assim, para além dos projetos internos que nos permitem desenvolver competências em novas áreas, e proativamente procurar soluções para problemas e oportunidades observadas, oferecemos um conjunto de serviços testados e consolidados pela experiência.</p>
-            <p>Alguns desses servições envolvem Engenharia de Software e Electrónica, Formações, Workshops, Marketing e Comunicação, Consultadoria, Desenvolvimento de Websites, Design Gráfico e até mesmo Edição de Vídeo</p>
-            
-    </div>
+        <h2>Ambição</h2></p>
 
+        <p>Numa organização é claro que todos têm que ter alguma ambição. Todos querem ser um pouco melhores hoje do que aquilo que eram ontem. Mas numa Júnior Empresa isso é reforçado uma vez que é por isso que fazemos parte deste projeto, é esse o nosso objetivo. Porque queremos aprender, todos os dias, para crescermos e fazer algo de que nos orgulhemos.</p>
 
+</div>
 
-    <!-- POPUPS NA SALA DE INOVAÇÃO -->
+<div id="div-technology-services" class="container">
+    <a class="button b-close">x</a>
+        <img src="images/JK_MRC_EMP.png" class="jek-logo">
 
+        <p>
 
+        <h2>Serviços</h2></p>
 
+        <p>Apesar de sermos uma júnior empresa de base tecnológica, os nossos serviços têm evoluído continuamente e de forma sustentada, permitindo-nos atuar num variado leque de áreas. Assim, para além dos projetos internos que nos permitem desenvolver competências em novas áreas, e proativamente procurar soluções para problemas e oportunidades observadas, oferecemos um conjunto de serviços testados e consolidados pela experiência.</p>
 
-    <div id="div-innovation-people" class="container">
-        <a class="button b-close">x<a/>
-            <img id="img-div-innovation-people" src="images/logo_palavrasp.png">
+        <p>Alguns desses servições envolvem Engenharia de Software e Electrónica, Formações, Workshops, Marketing e Comunicação, Consultadoria, Desenvolvimento de Websites, Design Gráfico e até mesmo Edição de Vídeo</p>
 
-            <h2>São as pessoas que fazem a jeKnowledge.</h2>
-            <p>O crescimento da jeKnowledge não se deve apenas aos nossos clientes e projetos, o nosso crescimento passa pelas pessoas com quem trabalhamos e que aqui conhecemos.</p>
-            <p>Ou numa noitada a fazer uma app, ou numa ida a Lisboa para uma conferência de empreendedorismo – estamos juntos nalguns dos momentos mais importantes da nossa formação. Como júnior empresa procuramos malta com vontade de fazer amizades e de conviver com pessoas que partilham a vontade de aprender mais.</p>
-            <p>Por tudo isto, o nosso recrutamento é extremamente importante e define o futuro da júnior empresa. São as pessoas que fazem a jeKnowledge e quem entra dita o espírito dos próximos anos. É este espírito que define o trabalho que realizamos como júnior empresa.</p>
-            <p>Apostamos no nosso tempo conjunto, em atividades de team building e jantares. Todos nós temos objetivos semelhantes, mas maneiras diferentes de alcançá-los, aprender uns com os outros torna esse caminho mais simples.</p>
-            <p>Os antigos membros da jeKnowledge são uma fonte de aprendizagem, e contamos com a sua experiência para nos tornarmos cada vez melhores. Damos valor ao relacionamento e aprendizagem mútua entre os alumni 1 e os atuais membros.</p>
-
-    </div>
+</div>
 
 
-    <div id="div-innovation-blog" class="container">
-        <a class="button b-close">x<a/>
-            <img id="img-div-innovation-blog" src="images/logo_palavrasp.png">
-
-            <p>Se te quiseres manter informado sobre os nosso eventos, passa pelo nosso <a target="_blank" href="http://jeknowledge.pt/blog/">blog</a>.</p>
-
-    </div>
+<!-- POPUPS NA SALA DE INOVAÇÃO -->
 
 
+<div id="div-innovation-people" class="container">
+    <a class="button b-close">x</a>
+        <img src="images/JK_MRC_EMP.png" class="jek-logo">
+
+        <h2>São as pessoas que fazem a jeKnowledge.</h2>
+
+        <p>O crescimento da jeKnowledge não se deve apenas aos nossos clientes e projetos, o nosso crescimento passa pelas pessoas com quem trabalhamos e que aqui conhecemos.</p>
+
+        <p>Ou numa noitada a fazer uma app, ou numa ida a Lisboa para uma conferência de empreendedorismo – estamos juntos nalguns dos momentos mais importantes da nossa formação. Como júnior empresa procuramos malta com vontade de fazer amizades e de conviver com pessoas que partilham a vontade de aprender mais.</p>
+
+        <p>Por tudo isto, o nosso recrutamento é extremamente importante e define o futuro da júnior empresa. São as pessoas que fazem a jeKnowledge e quem entra dita o espírito dos próximos anos. É este espírito que define o trabalho que realizamos como júnior empresa.</p>
+
+        <p>Apostamos no nosso tempo conjunto, em atividades de team building e jantares. Todos nós temos objetivos semelhantes, mas maneiras diferentes de alcançá-los, aprender uns com os outros torna esse caminho mais simples.</p>
+
+        <p>Os antigos membros da jeKnowledge são uma fonte de aprendizagem, e contamos com a sua experiência para nos tornarmos cada vez melhores. Damos valor ao relacionamento e aprendizagem mútua entre os alumni 1 e os atuais membros.</p>
+
+</div>
 
 
-    <div id="div-innovation-shiftappens" class="container">
-        <a class="button b-close">x<a/>
-            <img id="img-div-innovation-shiftappens" src="images/logo_palavrasp.png">
-            <h2>O Shift APPens é um Hackathon onde podes desenvolver a tua APP</h2>
+<div id="div-innovation-blog" class="container">
+    <a class="button b-close">x</a>
+        <img src="images/JK_MRC_EMP.png" class="jek-logo">
+
+        <p>Se te quiseres manter informado sobre os nosso eventos, passa pelo nosso <a target="_blank"
+                                                                                       href="http://jeknowledge.pt/blog/">blog</a>.</p>
+
+</div>
 
 
-            <p>Com a ajuda de mentores experientes na área, tu e a tua equipa têm 48 horas para desenvolver uma App usando a vossa linguagem de programação preferida. 
-            No fim, o trabalho desenvolvido é apresentado a um juri e é escolhido um vencedor.<p>
-            <p>A jeKnowledge entra neste evento como sendo um dos organizadores e principais promotores do evento.</p>
-            <p>Para saberes mais, visita já o <a target="_blank" href="http://shiftappens.com/">website</a>.
+<div id="div-innovation-shiftappens" class="container">
+    <a class="button b-close">x</a>
+        <img src="images/JK_MRC_EMP.png" class="jek-logo">
 
-    </div>
-    
-    <div id="div-innovation-praxe" class="container">
-        <a class="button b-close">x<a/>
-            <img id="img-div-innovation-praxe" src="images/logo_palavrasp.png">
-
-            <h2>Um dos muitos projetos</h2>
-            <p>A pedido do DUX da Universidade de Coimbra, a jeKnowledge comprometeu-se a fazer um website e uma aplicação mobile que pudessem dar a saber aos alunos desta Universidade se podia haver praxe ou não. O resultado pode ser visto em <a target="_blank" href="http://www.praxeuc.pt/">PraxeUC</a></p>.
-
-    </div>
+        <h2>O Shift APPens é um Hackathon onde podes desenvolver a tua APP</h2>
 
 
-    <div id="div-innovation-jekacademy" class="container">
-        <a class="button b-close">x<a/>
+        <p>Com a ajuda de mentores experientes na área, tu e a tua equipa têm 48 horas para desenvolver uma App usando a vossa linguagem de programação preferida.
+            No fim, o trabalho desenvolvido é apresentado a um juri e é escolhido um vencedor.
 
-    <div id="iframediv-jekacademy">
+        <p>
+
+        <p>A jeKnowledge entra neste evento como sendo um dos organizadores e principais promotores do evento.</p>
+
+        <p>Para saberes mais, visita já o <a target="_blank" href="http://shiftappens.com/">website</a>.
+
+</div>
+
+<div id="div-innovation-praxe" class="container">
+    <a class="button b-close">x</a>
+        <img src="images/JK_MRC_EMP.png" class="jek-logo">
+
+        <h2>Um dos muitos projetos</h2>
+
+        <p>A pedido do DUX da Universidade de Coimbra, a jeKnowledge comprometeu-se a fazer um website e uma aplicação mobile que pudessem dar a saber aos alunos desta Universidade se podia haver praxe ou não. O resultado pode ser visto em
+            <a target="_blank" href="http://www.praxeuc.pt/">PraxeUC</a></p>.
+
+</div>
+
+
+<div id="div-innovation-jekacademy" class="container">
+    <a class="button b-close">x</a>
+
+        <div id="iframediv-jekacademy">
             <iframe id="iframe-jekacademy" src="https://player.vimeo.com/video/121174221" width="500" height="281" frameborder="0"
-            webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
-    </div>
+</div>
 
 
-    <div id="div-innovation-sjm" class="container">
-        <a class="button b-close">x<a/>
+<div id="div-innovation-sjm" class="container">
+    <a class="button b-close">x</a>
 
-    <div id="iframediv-sjm">
+        <div id="iframediv-sjm">
             <iframe id="iframe-sjm" src="https://www.youtube.com/embed/yy5Qo3dWHzM" width="500" height="281" frameborder="0"
-            webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
-    </div>
+</div>
 
 
-    
-
-
-
-    
-
-
-        
-
-
-
-    </body>
-
+</body>
 </html>
-
-
