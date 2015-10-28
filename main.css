@@ -10,6 +10,12 @@ body {
     background-color: black;
 }
 
+.mapster-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .mapper {
     width: 100%;
     display: none;
