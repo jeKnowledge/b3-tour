@@ -192,7 +192,14 @@ var main = function () {
     })(jQuery);
 
 
-
+    (function ($) {
+        $(function () {
+            $('#hall-moda').on('click', function (e) {
+                e.preventDefault();
+                $('#div-hall-moda').bPopup();
+            });
+        });
+    })(jQuery);
 
 
     /* POPUPS NA SALA DE TECNOLOGIA */
