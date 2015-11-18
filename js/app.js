@@ -325,6 +325,16 @@ var main = function () {
         });
     })(jQuery);
 
+     (function ($) {
+         $(function () {
+             $('#div-membersstyle').on('click', function (e) {
+                 e.preventDefault();
+                 $('#div-membersstyle').bPopup();
+                 
+             });
++        });
+         
+     })(jQuery);
     
     (function ($) {
         $(function () {
