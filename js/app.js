@@ -282,7 +282,14 @@ var main = function () {
         });
     })(jQuery);
 
-
+    (function ($) {
+        $(function () {
+            $('#technology-sleepingbeauties').on('click', function (e) {
+                e.preventDefault();
+                $('#div-technology-services').bPopup();
+            });
+        });
+    })(jQuery);
 
     /* POPUPS NA SALA DA INOVAÇÃO */
 
