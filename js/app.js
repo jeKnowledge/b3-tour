@@ -363,6 +363,15 @@ var main = function () {
             });
         });
     })(jQuery);
+    
+    (function ($) {
+        $(function () {
+            $('#innovation-socialife').on('click', function (e) {
+                e.preventDefault();
+                $('#div-innovation-socialife').bPopup();
+            });
+        });
+    })(jQuery);
 
     (function ($) {
         $(function () {
