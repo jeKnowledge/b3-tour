@@ -286,7 +286,7 @@ var main = function () {
         $(function () {
             $('#technology-sleepingbeauties').on('click', function (e) {
                 e.preventDefault();
-                $('#div-technology-services').bPopup();
+                $('#div-technology-sleepingbeauties').bPopup();
             });
         });
     })(jQuery);
