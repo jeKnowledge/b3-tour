@@ -321,6 +321,16 @@ var main = function () {
             });
         });
     })(jQuery);
+    
+    (function ($) {
+        $(function () {
+            $('#innovation-everyoneisateacher').on('click', function (e) {
+                e.preventDefault();
+                $('#div-innovation-everyoneisateacher').bPopup();
+            });
+        });
+    })(jQuery);
+    
 
 
     (function ($) {
