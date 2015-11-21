@@ -340,7 +340,6 @@ var main = function () {
         });
     })(jQuery);
     
-    
     (function ($) {
         $(function () {
             $('#innovation-walloffame').on('click', function (e) {
@@ -349,6 +348,8 @@ var main = function () {
             });
         });
     })(jQuery);
+    
+
 
 
     (function ($) {
