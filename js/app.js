@@ -349,6 +349,15 @@ var main = function () {
         });
     })(jQuery);
     
+    (function ($) {
+        $(function () {
+            $('#innovation-teambuilding').on('click', function (e) {
+                e.preventDefault();
+                $('#div-innovation-teambuilding').bPopup();
+            });
+        });
+    })(jQuery);
+    
 
 
 
