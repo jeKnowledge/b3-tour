@@ -290,6 +290,15 @@ var main = function () {
             });
         });
     })(jQuery);
+    
+    (function ($) {
+        $(function () {
+            $('#technology-water').on('click', function (e) {
+                e.preventDefault();
+                $('#div-technology-water').bPopup();
+            });
+        });
+    })(jQuery);
 
     /* POPUPS NA SALA DA INOVAÇÃO */
 
