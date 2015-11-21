@@ -341,6 +341,15 @@ var main = function () {
             });
         });
     })(jQuery);
+    
+    (function ($) {
+        $(function () {
+            $('#innovation-walloffame').on('click', function (e) {
+                e.preventDefault();
+                $('#div-innovation-walloffame').bPopup();
+            });
+        });
+    })(jQuery);
 
     (function ($) {
         $(function () {
