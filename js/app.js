@@ -372,9 +372,19 @@ var main = function () {
     
     (function ($) {
         $(function () {
-            $('#innovation-teambuilding').on('click', function (e) {
+            $('#innovation-teambuildings').on('click', function (e) {
                 e.preventDefault();
-                $('#div-innovation-teambuilding').bPopup();
+                $('#div-innovation-teambuildings').bPopup();
+            });
+        });
+    })(jQuery);
+    
+    
+    (function ($) {
+        $(function () {
+            $('#innovation-workshops').on('click', function (e) {
+                e.preventDefault();
+                $('#div-innovation-workshops').bPopup();
             });
         });
     })(jQuery);
