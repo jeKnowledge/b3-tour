@@ -301,6 +301,7 @@ var main = function () {
         });
     })(jQuery);
     
+    
     (function ($) {
         $(function () {
             $('#technology-jklabs').on('click', function (e) {
@@ -309,6 +310,7 @@ var main = function () {
             });
         });
     })(jQuery);
+    
     
     (function ($) {
         $(function () {
