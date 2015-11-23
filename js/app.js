@@ -368,6 +368,14 @@ var main = function () {
         });
     })(jQuery);
     
+     (function ($) {
+        $(function () {
+            $('#innovation-AGOGE').on('click', function (e) {
+                e.preventDefault();
+                $('#div-innovation-AGOGE').bPopup();
+            });
+        });
+    })(jQuery);
 
 
 
