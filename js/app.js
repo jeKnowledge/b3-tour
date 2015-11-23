@@ -154,6 +154,16 @@ var main = function () {
             });
         });
     })(jQuery);
+    
+    
+    (function ($) {
+        $(function () {
+            $('#hall-team').on('click', function (e) {
+                e.preventDefault();
+                $('#div-hall-team').bPopup();
+            });
+        });
+    })(jQuery);
 
     (function ($) {
         $(function () {
