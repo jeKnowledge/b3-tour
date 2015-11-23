@@ -303,6 +303,15 @@ var main = function () {
     
     (function ($) {
         $(function () {
+            $('#technology-jklabs').on('click', function (e) {
+                e.preventDefault();
+                $('#div-technology-jklabs').bPopup();
+            });
+        });
+    })(jQuery);
+    
+    (function ($) {
+        $(function () {
             $('#technology-water').on('click', function (e) {
                 e.preventDefault();
                 $('#div-technology-water').bPopup();
