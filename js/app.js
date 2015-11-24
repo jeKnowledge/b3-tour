@@ -320,6 +320,16 @@ var main = function () {
             });
         });
     })(jQuery);
+    
+    (function ($) {
+        $(function () {
+            $('#technology-jkvacations').on('click', function (e) {
+                e.preventDefault();
+                $('#div-technology-jkvacations').bPopup();
+            });
+        });
+    })(jQuery);
+
 
     /* POPUPS NA SALA DA INOVAÇÃO */
 
