@@ -202,14 +202,6 @@ var main = function () {
     })(jQuery);
 
 
-    (function ($) {
-        $(function () {
-            $('#hall-moda').on('click', function (e) {
-                e.preventDefault();
-                $('#div-hall-moda').bPopup();
-            });
-        });
-    })(jQuery);
 
 
     /* POPUPS NA SALA DE TECNOLOGIA */
@@ -323,9 +315,9 @@ var main = function () {
     
     (function ($) {
         $(function () {
-            $('#technology-jkvacations').on('click', function (e) {
+            $('#technology-jkvacation').on('click', function (e) {
                 e.preventDefault();
-                $('#div-technology-jkvacations').bPopup();
+                $('#div-technology-jkvacation').bPopup();
             });
         });
     })(jQuery);
