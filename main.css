@@ -67,3 +67,9 @@ body {
     text-align: center;
     text-decoration: none;
 }
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
