@@ -9,15 +9,13 @@ var app = {
 
         $('body').css('display', 'none');
 
-        
+
         $('body').fadeIn(1500, function () {
             $('#hall-transition').pulse({opacity: 0.8}, {duration : 100, pulses : 5});
         });
- 
+
 
         // HIGHLIGHT E RESIZE DAS COORDENADAS
-
-        console.log($(image).parent());
 
         $(image).mapster('resize', 0, $(window).height(), 0);
 
@@ -154,8 +152,8 @@ var main = function () {
             });
         });
     })(jQuery);
-    
-    
+
+
     (function ($) {
         $(function () {
             $('#hall-team').on('click', function (e) {
@@ -292,8 +290,8 @@ var main = function () {
             });
         });
     })(jQuery);
-    
-    
+
+
     (function ($) {
         $(function () {
             $('#technology-jklabs').on('click', function (e) {
@@ -302,8 +300,8 @@ var main = function () {
             });
         });
     })(jQuery);
-    
-    
+
+
     (function ($) {
         $(function () {
             $('#technology-water').on('click', function (e) {
@@ -312,7 +310,7 @@ var main = function () {
             });
         });
     })(jQuery);
-    
+
     (function ($) {
         $(function () {
             $('#technology-jkvacation').on('click', function (e) {
@@ -353,7 +351,7 @@ var main = function () {
             });
         });
     })(jQuery);
-    
+
     (function ($) {
         $(function () {
             $('#innovation-everyoneisateacher').on('click', function (e) {
@@ -362,7 +360,7 @@ var main = function () {
             });
         });
     })(jQuery);
-    
+
     (function ($) {
         $(function () {
             $('#innovation-walloffame').on('click', function (e) {
@@ -371,7 +369,7 @@ var main = function () {
             });
         });
     })(jQuery);
-    
+
     (function ($) {
         $(function () {
             $('#innovation-teambuildings').on('click', function (e) {
@@ -380,8 +378,8 @@ var main = function () {
             });
         });
     })(jQuery);
-    
-    
+
+
     (function ($) {
         $(function () {
             $('#innovation-workshops').on('click', function (e) {
@@ -390,7 +388,7 @@ var main = function () {
             });
         });
     })(jQuery);
-    
+
      (function ($) {
         $(function () {
             $('#innovation-AGOGE').on('click', function (e) {
@@ -410,19 +408,19 @@ var main = function () {
             });
         });
     })(jQuery);
-    
+
 
     (function ($) {
         $(function () {
             $('#innovation-membersstyle').on('click', function (e) {
                 e.preventDefault();
                 $('#div-innovation-membersstyle').bPopup();
-                
+
             });
         });
-         
+
     })(jQuery);
-    
+
     (function ($) {
         $(function () {
             $('#innovation-jekacademy').on('click', function (e) {
@@ -443,7 +441,7 @@ var main = function () {
             });
         });
     })(jQuery);
-    
+
     (function ($) {
         $(function () {
             $('#innovation-socialife').on('click', function (e) {
@@ -476,4 +474,3 @@ var main = function () {
 };
 
 $(document).ready(main);
-
